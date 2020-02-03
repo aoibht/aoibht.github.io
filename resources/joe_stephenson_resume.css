@@ -199,6 +199,13 @@ PROFESSIONAL
     padding: 3x;
     margin-top: 1%;
 }
+.job-grid{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0 auto 1vw;
+
+}
 .job-title {
     font-size: 80%;
 }
