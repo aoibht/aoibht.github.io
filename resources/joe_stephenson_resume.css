@@ -18,16 +18,16 @@ li a:hover{
 }
 .menu-left{
     float:left;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     background-color: #236776;
     border-radius: 8px;
 }
 .menu-right{
     float:right;
-    padding-right: 1.5vw;
-    padding-left: 1.5vw;
-    margin-left: 2vw;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    margin-left: 2em;
     background-color: #236776;
     border-radius: 8px;
 }
@@ -198,32 +198,28 @@ PROGAMMING
 PROFESSIONAL
 */
 #professional-container{
+    height: 100%;
+    width: 100%;
     display: grid;
+    grid-template-columns: auto;
     background-color: none;
 }
 .professional-element{
     background-color: None;
-    padding: 3x;
+    padding: 3px;
     margin-top: 1%;
 }
-.job-grid{
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 0 auto 1vw;
-
-}
 .job-title {
-    font-size: .9vw;
+    font-size: .9em;
 }
 .job-description{
     padding: 2px;
-    font-size: .86em;
+    font-size: .82em;
     white-space: nowrap;
     overflow: hidden;
 }
 .job-when{
-    font-size: .6vw;
+    font-size: .6em;
     display: inline;
 }
 
@@ -239,10 +235,10 @@ Education
 }
 .education-element{    
     margin-top: 1%;
-    font-size: .9vw;
+    font-size: 1em;
 }
 .education-description{
-    font-size: .8vw;
+    font-size: .8em;
     
 }
 
@@ -264,7 +260,7 @@ Styling for the programming and mathematics coureses
 }
 .course-name{
     background-color: clear;
-    font-size: 1vw;
+    font-size: 1em;
     text-align: left;
     padding-left: 0px;
     padding-bottom:1px;
