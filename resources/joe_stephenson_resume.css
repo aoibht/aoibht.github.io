@@ -209,6 +209,7 @@ PROFESSIONAL
     padding: 3px;
     margin-top: 1%;
 }
+
 .job-title {
     font-size: .9em;
 }
@@ -235,7 +236,7 @@ Education
 }
 .education-element{    
     margin-top: 1%;
-    font-size: 1em;
+    font-size: .9em;
 }
 .education-description{
     font-size: .8em;
