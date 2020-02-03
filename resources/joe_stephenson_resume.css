@@ -20,7 +20,7 @@ li a:hover{
     float:left;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    background-color: #236776;
+    background-color: #182443;
     border-radius: 8px;
 }
 .menu-right{
@@ -174,7 +174,7 @@ PROGAMMING
 }
 .programming-element{
     background-color: #a7a7a7;
-    font-size: 16px;
+    font-size: 1.0em;
     border: 1px solid #000000;
     text-align: center;
     padding: 3px;
@@ -215,7 +215,7 @@ PROFESSIONAL
 }
 .job-description{
     padding: 2px;
-    font-size: .82em;
+    font-size: .75em;
     white-space: nowrap;
     overflow: hidden;
 }
