@@ -1,0 +1,258 @@
+/*
+GENERAL
+*/
+a{color:#000000;} 
+
+li a:hover{
+    color:#c1c1c1;
+}
+.main-menu{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    overflow: hidden;
+    background-color: clear;
+
+
+}
+.menu-left{
+    float:left;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-color: #0e2f4b;;
+    border-radius: 8px;
+}
+.menu-right{
+    float:right;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    margin-left: 2vw;
+    background-color: #0e2f4b;;
+    border-radius: 8px;
+}
+.menu-item {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-decoration: none;
+}
+
+
+.page{
+    background-color: #ffffff;
+}
+
+
+.center-video{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    background-color: none;
+}
+.video-content{
+    background-color: clear;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 2px;
+    padding-bottom:4px;
+    padding-top:1px;
+    padding-right: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 6px outset rgb(177, 177, 177);
+}
+.mp4-file {
+    position: relative;
+    width: 80%
+}
+.image-compare{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20vh;
+    height: 100%;
+    width: 100%;
+    background-color: none;
+}
+.image-file {  
+    margin-top: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.body{
+    width: 620px;
+    margin: auto;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.section-header{
+    margin-top: 1%;
+    font-size: 18px;
+}
+.section-separator{
+    margin: 0px;
+    margin-top: 1px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.general-paragraph{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-indent: 3%;
+    padding: 3px;
+}
+.brief-paragraph{
+    font-size: 10px;
+}
+.middle-title{
+    font-size: 13px;
+}
+.paragraph-header{
+    background-color: clear;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
+
+/*
+HEADER
+*/
+#intro-container{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+}
+.intro-element-main{
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 4px;
+}
+.main-name {
+    font-size: 16px;
+}
+
+
+/*
+PROGAMMING
+*/
+#programming-container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: none;
+    align-items: center;
+    margin-top: 1%;
+}
+.programming-element{
+    background-color: #a7a7a7;
+    font-size: 14px;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.programming-list{
+    background-color: #dadada;
+    font-size: 12px;
+    border: 1px solid #000000;
+    text-align: left;
+    padding-left: 2px;
+    padding-bottom:4px;
+    padding-top:1px;
+    padding-right: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*
+PROFESSIONAL
+*/
+#professional-container{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: none;
+}
+.professional-element{
+    font-size: 13px;
+    background-color: None;
+    padding: 3x;
+    margin-top: 1%;
+}
+.job-description{
+    padding: 2px;
+    font-size: 12px;
+}
+.job-when{
+    font-size: 10px;
+    display: inline;
+}
+
+
+/*
+Education
+*/
+#education-container{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: none;
+}
+.education-element{    
+    margin-top: 1%;
+    font-size: 13px;
+}
+.education-description{
+    font-size: 12px;
+    
+}
+
+
+
+
+
+
+
+/*
+Styling for the programming and mathematics coureses
+*/
+.course-container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% auto 10%;
+    background-color: none;
+}
+.course-name{
+    background-color: clear;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 0px;
+    padding-bottom:1px;
+    padding-top:0px;
+    padding-right: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
