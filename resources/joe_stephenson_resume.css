@@ -211,7 +211,9 @@ PROFESSIONAL
 }
 .job-description{
     padding: 2px;
-    font-size: 1.4vw;
+    font-size: 1.35vw;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .job-when{
     font-size: 60%;
