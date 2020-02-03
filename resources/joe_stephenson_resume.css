@@ -195,17 +195,19 @@ PROFESSIONAL
     background-color: none;
 }
 .professional-element{
-    font-size: 1.3vw;
     background-color: None;
     padding: 3x;
     margin-top: 1%;
 }
+.job-title {
+    font-size: 80%;
+}
 .job-description{
     padding: 2px;
-    font-size: auto;
+    font-size: 75%;
 }
 .job-when{
-    font-size: 1.0vw;
+    font-size: 60%;
     display: inline;
 }
 
