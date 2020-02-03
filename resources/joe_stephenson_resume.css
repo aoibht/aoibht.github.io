@@ -57,7 +57,7 @@ li a:hover{
 }
 .video-content{
     background-color: clear;
-    font-size: 12px;
+    font-size: 1.35vw;
     text-align: center;
     padding-left: 2px;
     padding-bottom:4px;
@@ -104,7 +104,7 @@ li a:hover{
 }
 .section-header{
     margin-top: 1%;
-    font-size: 18px;
+    font-size: 1.8vw;
 }
 .section-separator{
     margin: 0px;
@@ -119,10 +119,10 @@ li a:hover{
     padding: 3px;
 }
 .brief-paragraph{
-    font-size: 10px;
+    font-size: 1.1vw;
 }
 .middle-title{
-    font-size: 13px;
+    font-size: 1.4vw;
 }
 .paragraph-header{
     background-color: clear;
@@ -145,11 +145,11 @@ HEADER
     border: 1px solid #000000;
     text-align: center;
     padding: 10px;
-    font-size: 13px;
+    font-size: 1.4vw;
     border-radius: 4px;
 }
 .main-name {
-    font-size: 16px;
+    font-size: 1.7vw;
 }
 
 
@@ -167,7 +167,7 @@ PROGAMMING
 }
 .programming-element{
     background-color: #a7a7a7;
-    font-size: 14px;
+    font-size: 1.45vw;
     border: 1px solid #000000;
     text-align: center;
     padding: 3px;
@@ -176,7 +176,7 @@ PROGAMMING
 }
 .programming-list{
     background-color: #dadada;
-    font-size: 12px;
+    font-size: 1.38vw;
     border: 1px solid #000000;
     text-align: left;
     padding-left: 2px;
@@ -196,14 +196,14 @@ PROFESSIONAL
     background-color: none;
 }
 .professional-element{
-    font-size: 1.45vw;
+    font-size: 1.35vw;
     background-color: None;
     padding: 3x;
     margin-top: 1%;
 }
 .job-description{
     padding: 2px;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
 }
 .job-when{
     font-size: 1.0vw;
@@ -221,10 +221,10 @@ Education
 }
 .education-element{    
     margin-top: 1%;
-    font-size: 13px;
+    font-size: 1.4vw;
 }
 .education-description{
-    font-size: 12px;
+    font-size: 1.35vw;
     
 }
 
@@ -246,7 +246,7 @@ Styling for the programming and mathematics coureses
 }
 .course-name{
     background-color: clear;
-    font-size: 13px;
+    font-size: 1.4vw;
     text-align: left;
     padding-left: 0px;
     padding-bottom:1px;
