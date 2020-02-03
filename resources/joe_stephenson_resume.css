@@ -192,18 +192,17 @@ PROFESSIONAL
 */
 #professional-container{
     display: grid;
-    grid-template-columns: auto;
     background-color: none;
 }
 .professional-element{
-    font-size: 1.35vw;
+    font-size: 1.3vw;
     background-color: None;
     padding: 3x;
     margin-top: 1%;
 }
 .job-description{
     padding: 2px;
-    font-size: 1.2vw;
+    font-size: auto;
 }
 .job-when{
     font-size: 1.0vw;
