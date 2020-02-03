@@ -196,7 +196,7 @@ PROFESSIONAL
     background-color: none;
 }
 .professional-element{
-    font-size: 13px;
+    font-size: 1.45vw;
     background-color: None;
     padding: 3x;
     margin-top: 1%;
@@ -206,7 +206,7 @@ PROFESSIONAL
     font-size: 1.4vw;
 }
 .job-when{
-    font-size: 10px;
+    font-size: 1.0vw;
     display: inline;
 }
 
