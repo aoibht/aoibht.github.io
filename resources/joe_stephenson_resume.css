@@ -207,14 +207,14 @@ PROFESSIONAL
 
 }
 .job-title {
-    font-size: 1.4vw;
+    font-size: 75%;
 }
 .job-description{
     padding: 2px;
-    font-size: 1.35vw;
+    font-size: 70%;
 }
 .job-when{
-    font-size: 1.0vw;
+    font-size: 60%;
     display: inline;
 }
 
