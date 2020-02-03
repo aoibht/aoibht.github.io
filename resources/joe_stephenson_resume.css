@@ -20,7 +20,7 @@ li a:hover{
     float:left;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
-    background-color: #0e2f4b;;
+    background-color: #236776;
     border-radius: 8px;
 }
 .menu-right{
@@ -28,7 +28,7 @@ li a:hover{
     padding-right: 1.5vw;
     padding-left: 1.5vw;
     margin-left: 2vw;
-    background-color: #0e2f4b;;
+    background-color: #236776;
     border-radius: 8px;
 }
 .menu-item {
@@ -78,6 +78,8 @@ li a:hover{
     height: 100%;
     width: 100%;
     background-color: none;
+    margin-bottom: 16px;
+
 }
 .image-file {  
     margin-top: 8px;
@@ -216,7 +218,7 @@ PROFESSIONAL
 }
 .job-description{
     padding: 2px;
-    font-size: .87vw;
+    font-size: 86%;
     white-space: nowrap;
     overflow: hidden;
 }

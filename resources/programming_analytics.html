@@ -13,42 +13,60 @@
 
     
     <div class = "body">
-        <div class = "section-header">Data Analytics</div>
+        <div class = "section-header">Analytics</div>
+        
         <hr class = "section-separator">
-
+        <br>
+        <p class = "general-paragraph">
+            Most of my skills with data science come from being a broke college student. Data on financial instruments can  <br> 
+            sell for <a href = http://www.kibot.com/buy.aspx> hundreds of dollars</a> online. As an undergraduate researcher, my school gave me a budget of ~$600. which <br>
+            was spent almost entirely on books and server time. I needed a way to get the data myself.
+        </p>
+        <p class = "general-paragraph">
+            At the time, IEX ofference a free API which would give you a days worth of minute-interval for any ticker you asked <br>
+            for. The major downside of this was that you could only pull data on one company, from one day, with each request<br>
+            Fortunately they did not have an rate limits. I wrote a program which read a list of N ticker symbols and <br>
+            pulled data for each day available. Once I got this data into csv form I then had to clean it. <br>
+        </p>
+        <p class = "general-paragraph">
+            Companies who have provided free data APIs in the past (Morninstar, IEX, Google, Yahoo), <br>
+            have all transitioned from to a paid service (IEX and Morningstar,), or no longer offering the service in any useful way  <br>
+            (Yahoo and Google). 
+        </p>
         <div class = "professional-element">
             <b class = "job-title">Data Wrangling </b> 
-            <li class = "job-description">Using Pythons HTTP modules to download raw html files from website</li>
-            <li class = "job-description">Using BeautifulSoup to parse the raw HTML and create datasets</li>
-            <li class = "job-description">An example of my work with web scraping can be found <a href = "#">here STILL NEED TO ADD</a></li>
+            <li class = "job-description">Code I wrote to automate the IEX Finance Minute-Interval Data API can be found <a href = "google.com">here</a> </li>
+            <li class = "job-description">Code I wrote to scrape metadata and table information on medical standards can be found <a href = "google.com">here</a></li>
         </div>
         <div class = "professional-element">
             <b class = "job-title">Data Cleaning</b>
-
             <div class = "image-compare">
                 <div><img class = "image-file" src = "./media/before_clean.png"> </img></div>
+                <br>
                 <div><img class = "image-file" src = "./media/after_clean.png"> </img></div>
             </div>
-
-
-            <li class = "job-description">The most common place find myself needed to clean data is with higher frequency financial data</li>
-            <li class = "job-description">This data is often missing values for minutes at a time.</li>
+            <li class = "job-description">Using free APIs, meant I could never be sure about the quality of data I would get get back from my requests</li>
+            <li class = "job-description">To deal with this, whenever I pulled data I would fill the missing minutes with the last known price available.</li>
         </div>
+
         <div class = "professional-element">
-            <b class = "job-title"> Data Pre-Processing </b>
-            <li class = "job-description">Financial data usually needs to be normalized before being fed into machine learning models </li>
-            <li class = "job-description">To do this, you normalize financial instruments to values between 0 and 1. </li>
-            <li class = "job-description">Used sci-kit to quickly normalize normalize financial data</li>
+
+            <b class = "job-title"> Data Normalization</b>
+            <div class = "image-compare">
+                <div><img class = "image-file" src = "./media/A_lot_of_data.png"> </img></div>
+            </div>
+            <li class = "job-description">The visualization above is of the normalized minute-interval price; how the data looks before being fed into algorithms </li>
+            <li class = "job-description">This image depicts the market sell-off of december 2018.</li>
         </div>
         <div class = "professional-element">
             <b class = "job-title"> Data Analytics </b>
-            <li class = "job-description"></li>
-            <li class = "job-description"></li>
+            <li class = "job-description">I am primarily interested in forecasting stationary time-series data using both naive and computational strategies.</li>
+            <li class = "job-description">Attached are comparison of using an exponential smoothing forecasting strategies vs a LSTM neural network.</li>
         </div>
         <div class = "professional-element">
             <b class = "job-title"> Data Visualization </b><p class = "job-when">
-            <li class = "job-description"></li>
-            <li class = "job-description"></li>
+            <li class = "job-description">Many of my data visualizations can be found throughout this website. Check out my current project page  <a href = "./programming_projects.html">here<a>!</li>
+            <li class = "job-description">I used the Python module Matplotlib for all of them.</li>
         </div>
     </div>
 
