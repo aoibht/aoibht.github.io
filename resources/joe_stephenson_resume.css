@@ -119,13 +119,13 @@ li a:hover{
     margin-bottom: 0px;
     text-indent: 3%;
     padding: 3px;
-    font-size: .9vw;
+    font-size: .9em;
 }
 .brief-paragraph{
     font-size: 1vw;
 }
 .middle-title{
-    font-size: 1.0vw;
+    font-size: 1.0em;
 }
 .paragraph-header{
     background-color: clear;
@@ -135,7 +135,7 @@ li a:hover{
     font-size: 1vw;
 }
 .professional-list{
-    font-size: .9vw;
+    font-size: .9em;
 }
 
 /*
