@@ -96,8 +96,6 @@ li a:hover{
     margin: auto;
     border: 2px solid #000000;
     border-radius: 4px;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 15px;
     background-color: #f2f2f2;
     margin-bottom: 4%;
@@ -150,7 +148,9 @@ help container
  
 }
 .contact-element{
+    border: 1px solid #000000;
     text-align: right;
+    padding-right: 1em
 }
 
 
