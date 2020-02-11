@@ -66,9 +66,8 @@
     padding: .5em;
     opacity: 35%;
     background-size: cover; 
-    display: block;
     background-position: center;
-    object-fit: cover;
+    display: block;
 }
 .tile-image:hover{
   background-color: #e8e8e8;
@@ -77,7 +76,7 @@
 
 .tile-description{
   font-size: 1.3em;
-  margin-top: .2em;
+  margin-top: .6em;
   margin-bottom: 6em;
   color: #16304b;;
   opacity: 1;
