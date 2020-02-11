@@ -128,7 +128,7 @@ li a:hover{
     font-size: 1.0em;
 }
 .paragraph-header{
-    background-color: clear;
+    background-color: none;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
