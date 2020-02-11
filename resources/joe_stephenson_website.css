@@ -1,54 +1,54 @@
 .page{
-    background-image: linear-gradient(-270deg, rgb(198, 208, 218), rgb(105, 131, 147));
-    width: 100%;
-    margin-top: 1.5em;
+  background-image: linear-gradient(-270deg, rgb(198, 208, 218), rgb(105, 131, 147));
+  width: 100%;
+  margin-top: 1.5em;
 }
 .body{
-    width: 75%;
-    height: 100%;
-    margin: auto;
+  width: 75%;
+  height: 100%;
+  margin: auto;
 }
 
 .introduction-header{
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 20% auto 20%;
-  text-align: center;
+height: 100%;
+width: 100%;
+display: grid;
+grid-template-columns: 20% auto 20%;
+text-align: center;
 }
 .page-title{
-  border-radius: .2em;
-  font-size: 1.1em;
-  color: #16304b;
+border-radius: .2em;
+font-size: 1.1em;
+color: #16304b;
 }
 .header-separator{
-  width: 95%;
-  background-color: #16304b;
-  border: .02em solid #16304b;
-  padding: .05em;
-  border-radius: 1em;
-  margin-bottom: 2em
+width: 95%;
+background-color: #16304b;
+border: .02em solid #16304b;
+padding: .05em;
+border-radius: 1em;
+margin-bottom: 2em
 
 }
 .introduction-tiles{
-    height: 100%;
-    width: 100%;
-    display: grid;
-    position: relative;
-    grid-template-columns: 5% auto 7% auto 5%;
-    grid-template-rows: auto;
-    align-items: center;
-    word-wrap: nowrap;
-    overflow: hidden;
-    margin-top: 4em;
-    border: none;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  position: relative;
+  grid-template-columns: 5% auto 7% auto 5%;
+  grid-template-rows: auto;
+  align-items: center;
+  word-wrap: nowrap;
+  overflow: hidden;
+  margin-top: 4em;
+  border: none;
 }
 .tile-content{
-    width: 100%;
-    height: 100%;
-    font-size: .8em;
-    text-align: center;
-    background-color: #ffffff00;
+  width: 100%;
+  height: 100%;
+  font-size: .8em;
+  text-align: center;
+  background-color: #ffffff00;
 
 
 
@@ -56,30 +56,30 @@
 
 
 .tile-image{
-    width: 100%;
-    max-height: 10em;
-    min-height: 10em;
-    margin-top: 0em;
-    object-fit: cover;
-    border: .2em ridge #16304b;
-    border-radius: .6em;
-    padding: .5em;
-    opacity: 35%;
-    background-size: cover; 
-    display: block;
+  width: 100%;
+  max-height: 10em;
+  min-height: 10em;
+  margin-top: 0em;
+  object-fit: cover;
+  border: .2em ridge #16304b;
+  border-radius: .6em;
+  padding: .5em;
+  opacity: 35%;
+  background-size: cover; 
+  display: block;
 }
 .tile-image:hover{
-  background-color: #e8e8e8;
-  opacity: 1;
+background-color: #e8e8e8;
+opacity: 1;
 }
 
 .tile-description{
-  font-size: 1.3em;
-  margin-top: .6em;
-  margin-bottom: 4em;
-  color: #16304b;;
-  opacity: 1;
-  text-align: center;
+font-size: 1.3em;
+margin-top: .6em;
+margin-bottom: 4em;
+color: #16304b;;
+opacity: 1;
+text-align: center;
 }
 
 
@@ -96,57 +96,55 @@ Section containing the styling
 */
 
 .menu-container {
-  list-style-type: none;
-  margin-left: 2em;
-  padding: 0px;
-  overflow: hidden;
-  background-color: clear;
+list-style-type: none;
+margin-left: 2em;
+padding: 0px;
+overflow: hidden;
+background-color: clear;
 }
 .main-menu{
-  float: left;
+float: left;
 }
 
 li a, .dropdown-button {
-  display: inline-block;
-  color: #16304b;
-  text-align: center;
-  padding: .2em 16px;
-  text-decoration: none;
-  border-radius: .3em;
-  padding: .5em
+display: inline-block;
+color: #16304b;
+text-align: center;
+padding: .2em 16px;
+text-decoration: none;
+border-radius: .3em;
+padding: .5em
 }
 
 li a:hover, .dropdown:hover .dropdown-button {
-  background-color: #1a4763;
-  color: white;
+background-color: #1a4763;
+color: white;
 }
 
 li.dropdown {
-  display: inline-block;
+display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f0f0f0;
-  min-width: 120px;
-  z-index: 1;
+display: none;
+position: absolute;
+background-color: #f0f0f0;
+min-width: 120px;
+z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 4px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+color: black;
+padding: 12px 4px;
+text-decoration: none;
+display: block;
+text-align: left;
 }
 
 .dropdown-content a:hover {
-    background-color: #1a4763;
+  background-color: #1a4763;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+display: block;
 }
-
-

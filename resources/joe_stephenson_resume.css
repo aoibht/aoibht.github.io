@@ -45,6 +45,7 @@ li a:hover{
 
 .page{
     background-color: #ffffff;
+    background-image: linear-gradient(-270deg, rgb(203, 203, 203), rgb(209, 211, 220));
     margin-top: 4em;
     width: 100%;
 }
@@ -103,6 +104,8 @@ li a:hover{
     background-color: #f2f2f2;
     margin-bottom: 4%;
     padding-bottom: 10px;
+    background-color: #ffffff;
+    background-image: linear-gradient(-270deg, rgb(201, 201, 201), rgb(221, 224, 228));
 }
 .section-header{
     margin-top: 1%;
@@ -187,7 +190,7 @@ PROGAMMING
     margin-top: 1%;
 }
 .programming-element{
-    background-color: #a7a7a7;
+    background-color: #d7d7d7;
     font-size: 1.0em;
     border: 1px solid #000000;
     text-align: center;
@@ -196,7 +199,7 @@ PROGAMMING
     overflow: hidden;
 }
 .programming-list{
-    background-color: #dadada;
+    background-color: rgb(199, 199, 199);
     font-size: .75em;
     border: 1px solid #000000;
     text-align: left;
