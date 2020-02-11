@@ -5,94 +5,63 @@
 
     <link rel="icon" type="" href="./media/bears/brown-bear.png"></link>
 
-    <link rel="stylesheet" href="./joe_stephenson_resume.css">
+    <link rel="stylesheet" href="./joe_stephenson_website.css">
     <style>a{color:#000000;}</style>
 </head>
 <body class = "page">
-
-        
-    
-    <ul class = "main-menu">
-        <li class = "menu-left"><a class = "menu-item" href="../index.html">Home</a></li>
-        <li class = "menu-right"><a class = "menu-item" href="./about-me.html">Contact Me</a></li>
-        <li class = "menu-right"><a class = "menu-item" href="./contact-me">About Me</a></li>
-    </ul>
-
-
     <div class = "body">
 
-    <div class = "section-header">Current Projects</div>
-    <hr class = "section-separator">
-        <div id = "professional-container">
-            <div class = "professional-element">
-                <b class = "middle-title">Generating Synthetic Healthcare Data</b>
-                <p class = "general-paragraph">
-                    You can find an example of these types of illustrations  <a href="./media/V2-Visualized-Resume-Example.pdf" target="_blank">here</a>.</p>
-                </p>
 
-                <hr class = "section-separator">
-                
-                
-                <b class = "middle-title">Visualizing and Forecasting Financial Instruments</b>
-                <p class = "general-paragraph">
-                    <li class = "job-description">This project was the result of my work during the Sanger Research Progam from Summer 2018 to Spring 2019 </liclass = "job-description>
-                    <li class = "job-description" >Studying under Dr. Jermaine Moulton, I developed alorithmic forecasting strategies in Python</li>
-                    <li class = "job-description" >Desgined multi-headed convolutional neural networks and GRU networks to forcast multi-dimensional time series data </li>
-                    <li class = "job-description" >Used IEX's free data API (No longer free unfortunately), to gather minute interval data from 3 month periods</li>
-                    <li class = "job-description" >In total, used data from 61 companies classified as either energy or uitilities by the S&P 500</li>
-                    <li class = "job-description" > Forecasted stationary and non-stationary time-series data at intervals of 5, 10, 30, and 60 minutes</li>
-                    <li class = "job-description" >Findings showed that these networks forecasted stationary data at about the same level as a moving average</li>
-                    <li class = "job-description" >Below are a few visualizations of the results we produced during our research. </li>
-                    <li class = "job-description" >this should be redone</li>
-                </p>
+        <ul class = "menu-container">
+            <li  class = "main-menu"><a href="../index.html">Home</a></li>
+            <li class = "main-menu"><a href="./help-pages/about-me.html">About Me</a></li>
+            <li class = "main-menu"><a href="./help-pages/contact-me.html">Contact Me</a></li>
+            <li class="dropdown">
+              <a class="dropdown-button">Sections</a>
+              <div class="dropdown-content">
+                <a href="https://resumejoe.com/resources/programming_languages.html">Languages</a>
+                <a href="https://resumejoe.com/resources/programming_web.html">Web</a>
+                <a href="https://resumejoe.com/resources/programming_medical.html">Medical</a>
+                <a href="https://resumejoe.com/resources/programming_databases.html">Databases</a>
+                <a href="https://resumejoe.com/resources/programming_mathematics.html">Education</a>
+                <a href="https://resumejoe.com/resources/programming_projects.html">Projects</a>
+              </div>
+            </li>
+          </ul>
 
-                <div class = "center-video">
-                    <div></div>
-                    <div class = "video-content">
-                        <img class = "mp4-file" src = "./media/non-stationary-predictions.png"> </img>
-                        <p class = "brief-paragraph">Visualization of forecasts made by two different architectures</p>
-                    </div> 
-                    <div> </div>
-                </div>
+        
+        <div class = "introduction-header">
+            <div></div>
+            <div class = "page-title">Current Projects</div>
+            <div></div>
+        </div>
+        <hr class = "header-separator">
 
-                <br>
-                <br>
+        <div class = "introduction-tiles">
+            <div></div>
+            <div class = "tile-content">
+                <p class = "tile-description">Data Structures of Medical Standards</p>
+                <div><a href = "https://google.com"><img class = "tile-image" src = "./media/after_clean.png"></img></a></div>
+            </div> 
+            <div> </div>
+            <div class = "tile-content">
+                <p class = "tile-description">Data Collection and Web Scraping</p>
+                <div><a href = "https://google.com"><img class = "tile-image" src = "./media/after_clean.png"></img></a></div>
+            </div> 
+            <div> </div>
 
-                <div class = "center-video">
-                    <div></div>
-                    <div class = "video-content">
-                        <img class = "mp4-file" src = "./media/stationary-predictions.png"> </img>
-                        <p class = brief-paragraph>Visualization of forecasts made on stationary data</p>
-                    </div> 
-                    <div> </div>
-                </div>
-
-                <br>
-                <br>
-
-                <div class = "center-video">
-                    <div></div>
-                    <div class = "video-content">
-                        <video class = "mp4-file" controls><source src="./media/final_movie.mp4" type="video/mp4">This is embarrassing...</video>
-                    </div> 
-                    <div"></div>
-                </div>
-
-                <br>
-                <br>
-
-
-                <hr class = "section-separator">
-
-                <b class = "middle-title">Raspberry Pi Project</b>
-                <p class = "general-paragraph">
-                    <p class = "general-paragraph">
-                        I am using my Raspberry Pi as a music player and a DNS adblocker for my home network. <br>
-                        <li class = "job-description" >I am using the repository <a href ="https://github.com/dtcooper/raspotify" target="_blank">Raspotify</a> allowing me constant remote access to my music system.</li>
-                        <li class = "job-description" >I am using the repository <a href ="https://github.com/pi-hole/pi-hole" target="_blank"> Pihole</a> enabling me to simultaneously use my Pi as a DNS adblocker.</li>
-                    </p>
-            </div>
-
+            <div></div>
+            <div class = "tile-content">
+                <p class = "tile-description">Visualizing Financial Instruments</p>
+                <div><a href = "https://google.com"><img class = "tile-image" src = "./media/A_lot_of_data.png"></img></a></div>
+            </div> 
+            <div> </div>
+            <div class = "tile-content">
+                <p class = "tile-description">This Website</p>
+                <div><a href = "https://google.com"><img class = "tile-image" src = "./media/A_lot_of_data.png"></img></a></div>
+            </div> 
+            <div> </div>
+        </div>
     </div>
 </body>
 </html>
