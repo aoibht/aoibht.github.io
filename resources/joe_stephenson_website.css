@@ -41,8 +41,7 @@
     word-wrap: nowrap;
     overflow: hidden;
     margin-top: 4em;
-    
-
+    border: none;
 }
 .tile-content{
     width: 100%;
@@ -50,9 +49,9 @@
     font-size: .8em;
     text-align: center;
     background-color: #ffffff00;
-    border: none;
 
-    
+
+
 }
 
 
@@ -66,8 +65,10 @@
     border-radius: .6em;
     padding: .5em;
     opacity: 35%;
-    background-color:#ffffff3f;
-    
+    background-size: cover; 
+    display: block;
+    background-position: center;
+    object-fit: cover;
 }
 .tile-image:hover{
   background-color: #e8e8e8;
