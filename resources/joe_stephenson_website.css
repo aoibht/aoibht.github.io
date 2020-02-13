@@ -96,13 +96,13 @@ margin-bottom: 3em
   border: .1em ridge black;
   border-radius: .6em;
   padding: .5em;
-  opacity: 79%;
+  opacity: 100%;
   background-size: cover; 
   display: block;
 }
 .tile-image:hover{
-background-color: #e8e8e8;
-opacity: 1;
+background-color: #c2c2c2;
+opacity: 70%;
 }
 
 .tile-explanation{
@@ -143,6 +143,7 @@ background-color: none;
 .main-menu{
 float: left;
 padding-right: 4%;
+
 }
 
 li a, .dropdown-button {
@@ -150,6 +151,7 @@ display: inline-block;
 color: black;
 text-align: center;
 padding: .5em;
+margin-right: 2em;
 text-decoration: none;
 font-size: 1em;
 border-radius: .3em;
