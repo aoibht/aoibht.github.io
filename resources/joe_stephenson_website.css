@@ -108,15 +108,15 @@ margin-bottom: .4vh
 .tile-image-logo{
   min-width: 60%;
   max-width: 60%;
-  max-height: 9em;
-  min-height: 9em;
+  max-height: 8em;
+  min-height: 8em;
   margin-top: 0em;
   border: .1em ridge black;
   border-radius: .6em;
   padding: .5em;
   opacity: 100%;
   background-position: center;
-  background-size: 50%;
+  background-size: 5em;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
@@ -162,7 +162,7 @@ opacity: 70%;
   width: 100%;
   display: grid;
   position: relative;
-  grid-template-columns: 5% 25% auto 25% auto 25% 5%;
+  grid-template-columns: 5% 28% auto 28% auto 28% 5%;
   grid-template-rows: auto;
   align-items: center;
   word-wrap: nowrap;
