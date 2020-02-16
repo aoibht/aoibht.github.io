@@ -32,7 +32,6 @@
 }
 
 
-
 .introduction-header{
 height: 100%;
 width: 100%;
@@ -171,6 +170,27 @@ opacity: 70%;
   border: none;
 
 }
+.language-description{
+  font-size: 16px;
+  color: black;
+  opacity: 1;
+  text-align: left;
+  margin: .2vh 0vw 1vh 0vw
+}
+
+.general-list{
+  font-size: .9vw;
+  text-align: left;
+  padding-left: 3vw;
+  max-height: 5.5vh;
+  word-wrap: nowrap;
+  overflow: scroll;
+  margin-bottom: 2em;
+}
+
+
+
+
 .right-tiles{
   height: 100%;
   width: 100%;
