@@ -1,58 +1,100 @@
 <!DOCTYPE html>
 <html>
-<head>    
-    <title>Web Development</title>
+<head>
+    <title>Current Projects</title>
 
-    <link rel="icon" type="" href="./media/bears/blue-bear.png"></link>
-    <link rel="stylesheet" href="./joe_stephenson_resume.css">
+    <link rel="icon" type="" href="./media/bears/yellow-bear.png"></link>
+
+    <link rel="stylesheet" href="./joe_stephenson_website.css">
+    <style>a{color:#000000;}</style>
 </head>
-<body class = "page">    
-    <ul class = "main-menu">
-        <li class = "menu-left"><a class = "menu-item" href="../index.html">Home</a></li>
-        <li class = "menu-right"><a class = "menu-item" href="./about-me.html">Contact Me</a></li>
-        <li class = "menu-right"><a class = "menu-item" href="./contact-me">About Me</a></li>
-    </ul>
-    
-
-    
+<body class = "page">
     <div class = "body">
-        <div class = "section-header">Web Development</div>
-        <hr class = "section-separator">
 
-        <div class = "professional-element">
-            <b class = "job-title">Angular</b> 
-            <li class = "job-description"> I use AngularJS often in my current position primarily to manage our Patient Portal. </li>
-            <li class = "job-description"> I have experience using Angular along with Ionic for progressive web application design.</li>
+
+        <ul class = "menu-container">
+            <li  class = "main-menu"><a href="../index.html">Home</a></li>
+            <li class = "main-menu"><a href="./help-pages/about-me.html">About Me</a></li>
+            <li class = "main-menu"><a href="./help-pages/contact-me.html">Contact Me</a></li>
+            <li class="dropdown">
+              <a class="dropdown-button">Sections</a>
+              <div class="dropdown-content">
+                <a href="https://resumejoe.com/resources/programming_languages.html">Languages</a>
+                <a href="https://resumejoe.com/resources/programming_web.html">Web</a>
+                <a href="https://resumejoe.com/resources/programming_medical.html">Medical</a>
+                <a href="https://resumejoe.com/resources/programming_databases.html">Databases</a>
+                <a href="https://resumejoe.com/resources/programming_mathematics.html">Education</a>
+                <a href="https://resumejoe.com/resources/programming_projects.html">Projects</a>
+              </div>
+            </li>
+        </ul>
+        <hr class = "header-separator">
+        
+
+        <div class = "language-tiles">
+            <!--Row 1-->
+
+            <div></div>
+            <div class = "tile-content">
+                <a href = "https://google.com"><div class = "tile-image-logo" style="background-image:url(./media/web/angular-logo.png);"></div></a>
+              
+                <p class = "tile-explanation">Angular</p>
+                <hr class = "tile-separator">
+                <p class = "tile-description">My main project right now focuses on interoperability of 
+                </p>
+            </div> 
+            <div> </div>
+            <div class = "tile-content">
+                <a href = "https://google.com"><div class = "tile-image-logo" style="background-image:url(./media/web/angularjs-logo.png); "></div></a>
+              
+                <p class = "tile-explanation">AngularJS</p>
+                <hr class = "tile-separator">
+                <p class = "tile-description">I use AngularJS in a professional compacity. </p>
+            </div> 
+            <div></div>
+
+
+            <div class = "tile-content">
+                <a href = "https://google.com"><div class = "tile-image-logo" style="background-image:url(./media/web/node-logo.png);"></div></a>
+              
+                <p class = "tile-explanation">Node</p>
+                <hr class = "tile-separator">
+                <p class = "tile-description">My main project right now focuses on interoperabilit
+                </p>
+            </div> 
+            <div></div>
+
+
+            <!--Row 2-->
+            <div></div>
+            <div class = "tile-content">
+                <a href = "https://google.com"><div class = "tile-image-logo" style="background-image:url(./media/languages/html-css-logo.png);"></div></a>
+              
+                <p class = "tile-explanation">User Interface Design</p>
+                <hr class = "tile-separator">
+                <p class = "tile-description">My main project right now focuses on interoperability of 
+                </p>
+            </div> 
+            <div> </div>
+            <div class = "tile-content">
+                <a href = "https://google.com"><div class = "tile-image-logo" style="background-image:url(./media/web/json-logo.png);"></div></a>
+              
+                <p class = "tile-explanation">JSON Technologies</p>
+                <hr class = "tile-separator">
+                <p class = "tile-description">My main project right now focuses on interoperabilit
+                </p>
+            </div> 
+            <div> </div>
+            <div class = "tile-content">
+                <a href = "https://google.com"><div class = "tile-image-logo" style="background-image:url(./media/web/xml-logo.png);"></div></a>
+              
+                <p class = "tile-explanation">XML Technologies</p>
+                <hr class = "tile-separator">
+                <p class = "tile-description">My main project right now focuses on interoperabilit
+                </p>
+            </div> 
         </div>
-        <div class = "professional-element">
-            <b class = "job-title">Node</b>
-            <li class = "job-description">Express for middleware and api design</li>
-            <li class = "job-description">Mongoose to interact with MongoDB</li>
-        </div>
-        <div class = "professional-element">
-            <b class = "job-title"> Hypertext Markup Language (HTML) </b>
-            <li class = "job-description">This entire website was created using basic HTML </li>
-            <li class = "job-description">Experience connecting front-end components to backend APIs</li>
-            <li class = "job-description">Experience with HTML frameworks like Bootstrap</li>
-        </div>
-        <div class = "professional-element">
-            <b class = "job-title"> Cascading Style Sheets (CSS) </b>
-            <li class = "job-description">This entire website was created using basic CSS </li>
-            <li class = "job-description">Experience working with Syntatically Awesome Style Sheet (SASS)</li>
-            <li class = "job-description">Experience styling web pages for both multiple platforms</li>
-        </div>
-        <div class = "professional-element">
-            <b class = "job-title"> XML Technologies</b>
-            <li class = "job-description">Experience using XPath to target specific branches within XML documents</li>
-            <li class = "job-description">Experience using XSLT to transform branches selected using XPath</li>
-            <li class = "job-description">Experience using XML technologies for web-scraping</li>
-        </div>
-        <div class = "professional-element">
-            <b class = "job-title"> JSON Technologies</b><p class = "job-when">
-            <li class = "job-description">Using json object in applications</li>
-            <li class = "job-description">Using json objects to store data</li>
-        </div>
+
     </div>
-
 </body>
 </html>
