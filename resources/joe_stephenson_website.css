@@ -110,7 +110,7 @@ margin-bottom: 4vh
   min-width: 60%;
   max-width: 60%;
   max-height: 8em;
-  min-height: 6em;
+  min-height: 8em;
   border: .1em ridge black;
   border-radius: .6em;
   padding: .5em;
@@ -166,7 +166,7 @@ opacity: 70%;
   align-items: left;
   word-wrap: nowrap;
   overflow: hidden;
-  margin-top: 3em;
+  margin-top: 0em;
   border: none;
 }
 
@@ -186,6 +186,7 @@ opacity: 70%;
 .language-header{
    margin-bottom: 0px;
    margin-top: .2em;
+   font-size: 1.2em;
 }
 .language-paragraph{
   margin-bottom: .2em;

@@ -73,11 +73,16 @@ help container
  
 }
 .help-button{
-    font-size: .8em;
+    font-size: .9em;
     border: none;
+    border-radius: .5em;
     background-color: Transparent;
     color:#236776;
     font-family: 'Times New Roman', Times, serif;
+
+}
+.help-button:hover{
+    background-color: rgb(154, 154, 154);
 
 }
 
