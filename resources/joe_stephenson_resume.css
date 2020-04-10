@@ -137,8 +137,6 @@ PROGAMMING
     background-color: #949494;
 
 }
-
-
 .programming-list{
     background-color: rgb(216, 216, 216);
     font-size: .75em;
@@ -175,6 +173,15 @@ PROFESSIONAL
 }
 .job-title {
     font-size: .9em;
+}
+.job-title-previous {
+    font-size: .85em;
+}
+.job-elipse{
+    text-align: center;
+    margin-top: 2px;
+    font-size: .6em;
+    padding-right: 75%
 }
 .job-description{
     padding: 2px;
