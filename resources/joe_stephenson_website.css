@@ -175,7 +175,7 @@ opacity: 70%;
 .tile-separator{
   margin-top: .2em;
   margin-bottom: .4em;
-  width: 70%
+  width: 80%
 }
 
 
@@ -213,12 +213,12 @@ opacity: 70%;
 .language-header{
    margin-bottom: 0px;
    margin-top: .2em;
-   font-size: calc(8px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+   font-size: calc(7px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
    line-height: calc(3px+ (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 
 }
 .language-paragraph{
-  margin-bottom: .2em;
+  margin-bottom: 20px;
   margin-top: .2em;
   text-align: justify;
   font-size: calc(4px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
