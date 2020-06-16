@@ -112,6 +112,7 @@ margin-bottom: 4vh
   font-size: .8em;
   text-align: center;
   background-color: #ffffff00;
+  
 }
 .image-container{
   text-align: center;
@@ -134,15 +135,15 @@ margin-bottom: 4vh
   display: inline-block;
 }
 .tile-image-logo{
-  min-width: 70%;
-  max-width: 70%;
+  min-width: 60%;
+  max-width: 60%;
   max-height: 8em;
   min-height: 8em;
   border: .1em ridge black;
   border-radius: .25em;
   padding: .5em;
   opacity: 100%;
-  background-size: 5em;
+  background-size: 10%;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
@@ -166,7 +167,7 @@ opacity: 70%;
   margin-bottom: 0px;
 }
 .tile-description{
-    font-size: 90%;
+    font-size: 100%;
     color: black;
     opacity: 1;
     text-align: left;
@@ -195,6 +196,7 @@ opacity: 70%;
   overflow: hidden;
   margin-top: 0em;
   border: none;
+
 }
 
 .language-description{
@@ -238,6 +240,21 @@ opacity: 70%;
   margin-top: 10px;
 }
 
+.old-right-tiles{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  position: relative;
+  grid-template-columns:  45% auto 45% auto;
+  grid-template-rows: auto;
+  word-wrap: nowrap;
+  overflow: hidden;
+  border: none;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 .right-tiles{
   height: 100%;
   width: 100%;
@@ -254,14 +271,13 @@ opacity: 70%;
 }
 .right-tile-content{
   margin-left: 2em;
-  text-align: right;
   background-color: #ffffff00;
 }
 .tile-right-description{
   font-size: .8vw;
   color: black;
   opacity: 1;
-  text-align: left;
+  text-align: justify;
   margin: .2vh 0vw 5vh 0vw ;
   margin-left: 4em;
   margin-right: 4em;
@@ -316,10 +332,39 @@ opacity: 70%;
   opacity: 1;
   margin: .2vh 0vw 2vh 0vw;
   margin-right: 0px;
-  text-align: right;
+  text-align: justify;
   margin-left: 2em;
+  margin-right: 0em;
+}
+
+.old-tile-right-description{
+  font-size:18px;
+  opacity: 1;
+  text-align: justify;
+  color: black;
+  line-height: 160%;
+  color: rgb(103, 103, 103);
+  text-indent: 50px; 
+  margin-block-start: 0em;
+  margin-block-end: .1em;
+}
+.old-right-content{
+  text-align: center;
+  background-color: #ffffff00;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.old-tile-right-explanation{
+  font-size: 120%;
+  color: black;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
   margin-right: 2em;
 }
+
+
 .tile-left-explanation{
   font-size: 120%;
   color: black;
@@ -332,7 +377,7 @@ opacity: 70%;
 .tile-left-separator{
   margin-top: .2em;
   margin-bottom: .4em;
-  margin-right: 2em;
+  margin-right: 0em;
   width: 70%
 }
 
@@ -358,8 +403,6 @@ overflow: hidden;
 background-color: none;
 margin-block-start: 0em;
 margin-block-end: 8px;
-
-
 }
 .main-menu{
 float: left;
@@ -453,4 +496,284 @@ display: block;
   word-wrap: nowrap;
   overflow: hidden;
   border: none;
+}
+
+
+.main-tiles {
+  height: 100%;
+  width: auto;
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  -ms-grid-columns: auto 30% 30% 30% auto;
+      grid-template-columns: auto 30% 30% 30% auto;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  word-wrap: nowrap;
+  overflow: hidden;
+  border: none;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  padding-top: 1em;
+}
+.main-tiles-two {
+  height: 100%;
+  width: auto;
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  -ms-grid-columns: auto 40% 40% auto;
+      grid-template-columns: auto 40% 40% auto;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  word-wrap: nowrap;
+  overflow: hidden;
+  border: none;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  padding-top: 1em;
+}
+.main-tiles-single {
+  height: 100%;
+  width: auto;
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  -ms-grid-columns: auto 70%  auto;
+      grid-template-columns: auto 70% auto;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  word-wrap: nowrap;
+  overflow: hidden;
+  border: none;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  padding-top: 1em;
+}
+
+.main-card-section {
+  border-radius: 12px;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-shadow: 2px 4px 16px 0 rgba(109, 109, 109, 0.42);
+  margin-bottom: 1em;
+  margin-top: 1em;
+  background-color: rgba(228, 228, 228, 0.55);
+  
+}
+.main-card-section:hover{
+  box-shadow: 2px 4px 16px 0 rgba(43, 43, 43, 0.42);
+  transition: .3s;
+
+}
+.main-icons-middle {
+  margin-top: 2em;
+  border-radius: 8px;
+  -webkit-box-shadow: 2px 4px 12px 0 rgba(67, 67, 67, 0.578);
+          box-shadow: 2px 4px 12px 0 rgba(167, 167, 167, 0.53);
+  margin-left: 12%;
+  margin-right: 12%;
+  background-color: #bfbfbf58;
+}
+.main-icons-middle:hover .icon-image {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.icon-image {
+  max-height: 30px;
+  min-height: 30px;
+  margin-bottom: 1em;
+  padding-bottom: 0em;
+  padding-top: 2em;
+}
+.icon-image-second {
+  max-height: 30px;
+  min-height: 30px;
+  margin-bottom: .5em;
+  padding-bottom: 0em;
+  padding-top: 1em;
+}
+.main-icons:hover .icon-image-second {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.icon-text {
+  margin-top: 0px;
+  padding-top: 0%;
+  font-size: 12px;
+  padding-bottom: 8px;
+  color: #616161;
+  font-weight: 600;
+}
+
+.icon-text-head {
+  margin-top: 0px;
+  padding-top: 0%;
+  font-size: 12px;
+  color: #616161;
+  font-weight: 600;
+}
+
+.icon-link{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: .3em;
+  font-size: 80%;
+  font-weight: 600;
+}
+
+.tile-center-description {
+  font-size: 100%;
+  opacity: 1;
+  text-align: justify;
+  color: black;
+  line-height: 140%;
+  color: #676767;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.all-card-container{
+  background-color: #a9a9a94e;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 8px 16px 0 rgba(26, 26, 26, 0.201);
+  box-shadow: 2px 2px 4px 6px rgba(26, 26, 26, 0.201);
+  margin-bottom: 5em;
+  padding-bottom: 2em;
+}
+.old-left-tiles{
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  display: grid;
+  position: relative;
+  grid-template-columns: 45% auto 45% auto;
+  grid-template-rows: auto;
+  word-wrap: nowrap;
+  overflow: hidden;
+  border: none;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+}
+
+.left-tiles{
+  height: 100%;
+  width: auto;
+  display: grid;
+  position: relative;
+  grid-template-columns: auto 45% ;
+  grid-template-rows: auto;
+  word-wrap: nowrap;
+  overflow: hidden;
+  border: none;
+  align-items: top;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-right: 6em;
+  margin-left: 6em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background: rgb(228, 228, 228);
+  border-radius: 6px;
+}
+.left-tiles:hover{
+  box-shadow: 2px 16px 22px 0 rgba(48, 48, 48, 0.201);
+  transition: .3s;
+}
+
+.left-tile-content{
+  text-align: center;
+  background-color: #ffffff00;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.tile-left-explanation{
+  font-size: 130%;
+  color: black;
+  opacity: 1;
+  text-align: right;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color:rgb(40, 40, 40);
+  font-weight: 600;
+  margin-right: 0px;
+}
+.tile-left-description{
+  font-size:18px;
+  opacity: 1;
+  text-align: justify;
+  color: black;
+  line-height: 160%;
+  color: rgb(103, 103, 103);
+  padding-left: 3em;
+  text-indent: 50px; 
+  margin-block-start: 0em;
+  margin-block-end: .1em;
+}
+
+.tile-left-separator{
+  margin-top: .2em;
+  margin-bottom: .4em;
+  width: 70%;
+  border-color: black;
+  background-color: black;
+  margin-block-end: 1em;
+  margin-block-start: .1em;
+  padding: .005em;
+}
+.right-tile-content{
+  text-align: right;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.icon-wrapper{
+  padding-top: 10%;
+ }
+ .main-icons{
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 8px;
+  box-shadow: 2px 8px 16px 0 rgba(26, 26, 26, 0.201);
+  background-color: rgba(4, 4, 4, 0.055);
+  
+ }
+ .column-one{
+   float: left;
+   width: 50%;
+ }
+ .column-two{
+  float: right;
+  width: 50%;
+ }
+
+ .card-separator{
+   width: 80%;
+   margin-block-start: 0.2em;
+    margin-block-end: 5%;
+ }
+
+
+.old-tile-right-separator{
+    margin-top: .2em;
+    margin-bottom: .4em;
+    color: black;
+    width: 70%;
+    margin-left: 0em;
+    border-width: 1px;
+    border-color: black;
+  
 }

@@ -13,7 +13,7 @@ li a:hover{
 .page{
     background-color: #ffffff;
     background-image: linear-gradient(-270deg, rgb(203, 203, 203), rgb(226, 227, 232));
-    margin-top: 4em;
+    margin-top: 2em;
     width: 100%;
 }
 
@@ -29,8 +29,14 @@ li a:hover{
     padding-bottom: 10px;
     background-color: #f2f2f2;
     margin-bottom: 4%;
-    background-color: #eaeaea;
+    background-color: #e4e4e4;
+    box-shadow: 2px 12px 20px 6px rgba(103, 103, 103, 0.331);
 }
+.body:hover{
+    box-shadow: 2px 12px 20px 6px rgba(0, 0, 0, 0.331);
+    transition: 1s;
+}
+
 .section-header{
     margin-top: 1%;
     font-size: 1.1em;
@@ -181,10 +187,11 @@ PROFESSIONAL
     font-size: .83em;
 }
 .job-elipse{
-    text-align: center;
+    text-align: left;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: .4em;
+    font-size: .75em;
+    font-weight: 800;
     padding-right: 75%
 }
 .job-description{

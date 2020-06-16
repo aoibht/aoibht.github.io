@@ -34,67 +34,95 @@
             </div>
         </div>
         <hr class = "header-separator">
-        
-
-        <div class = "language-tiles">
-            <!--Row 1-->
-
-            <div></div>
-            <div class = "tile-content">
-                <a href = "https://github.com/aoibht/FHIR-Scrape"><div class = "tile-image-logo" style="background-image:url(./media/analytics/bs4-logo.png);"></div></a>
-              
-                <p class = "tile-explanation">Data Collection</p>
-                <hr class = "tile-separator">
-                <p class = "tile-description">My two major projects related to data collection focus on building a library
-                    of medical standards and the automation of the financial API IEX Finance.
-
-                </p>
-            </div> 
-            <div> </div>
-            <div class = "tile-content">
-                <a href = "https://google.com"><div class = "tile-image-logo" style="background-image:url(./media/analytics/pandas-logo.png); "></div></a>
-              
-                <p class = "tile-explanation">Data Cleaning</p>
-                <hr class = "tile-separator">
-                <p class = "tile-description">I have experience cleaning data in a variety of settings</p>
-            </div> 
-            <div></div>
 
 
-            <div class = "tile-content">
-                <a href = "https://google.com"><div class = "tile-image-logo" style="background-image:url(./media/analytics/sci-kit-logo.svg);"></div></a>
-              
-                <p class = "tile-explanation">Data Pre-Processing</p>
-                <hr class = "tile-separator">
-                <p class = "tile-description">I have experience using data-preprocessing techologies for data chunking for large data, and
-                    data normalization for machine learning.
-                </p>
-            </div> 
-            <div></div>
+        <div class = "all-card-container">
+            <div class = "main-tiles-two">
+                <div></div>
+                <div class = "main-card-section">
+                    <a class = "icon-link" href = ./pages/.html>
+                        <div class =  "main-icons-middle">
+                                <img class = "icon-image" src="media/analytics/bs4-logo.png"><img>    
+                                <div class= "icon-text">Data Collection</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        Data Collection is one of my favorite parts of analytics. Recently, I used BeautifulSoup4 to scrape the FHIR 
+                        medical standards. Web-Scraping is my most common way of collecting data, but I also experience collecting data 
+                        in  more formal settings.
+                        <br>
+                        When collecting data, I almost always use Python. Python has two libraries, BeaitufilSoup and Selenium, which make
+                        scraping website incredibly easy. Those third-party libraries, along with built libraries like http and sqlite, make
+                        Python my continued go to for data collection
+                        <br>
+                        I usually store collected data into a SQLite database. If the data I am scraping is small enough, I will also store
+                        it to a CSV file. 
+
+                    </p>
+                </div>
+                <div class = "main-card-section">
+                    <a class = "icon-link" href = ./pages/.html>
+                        <div class =  "main-icons-middle">
+                                <img class = "icon-image" src="media/analytics/tensorflow-logo.png"><img>    
+                                <div class= "icon-text">Data Analytics</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        I think data analytics 
+                    </p>
+                </div>
+                <div></div> 
+            </div>
+
+            <div class = "main-tiles-two">
+                <div></div>
+                <div class = "main-card-section">
+                    <a  class = "icon-link" href = ./pages/become-a-mentor.html>
+                        <div class = "main-icons-middle">
+                                <img class = "icon-image" src="./media/analytics/sci-kit-logo.svg"><img>    
+                                <div class= "icon-text">Data Pre-Processing</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        My main experiences with data pre-processing have to do with financial and healthcare data. With financial data 
+                        I have used data normalizations when analyzing financial data to account for weighted differences in price changes.
+                        I have experience normalizing healthcare data from hl7 v2.x to v3 (CDA) and v4 (FHIR). 
+                    </p>
+                </div>
+                <div class = "main-card-section">
+                    <a  class = "icon-link" href = ./pages/become-a-mentor.html>
+                        <div class = "main-icons-middle">
+                                <img class = "icon-image" src="./media/analytics/pandas-logo.png"><img>    
+                                <div class= "icon-text">Data Cleaning</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        Data Cleaning is the necessary evil of data analytics. When I first started in data analytics, I collected 
+                        data by automating a financial API called IEX Finance. The data I was collecting was on a minute interval, and 
+                        because it was free, this meant that there were many holes of missing data throughout the time series.
+                    </p>
+                </div>
+                <div></div> 
+            </div>
 
 
-            <!--Row 2-->
-            <div></div>
-            <div class = "tile-content">
-                <a href = "https://google.com"><div class = "tile-image-logo" style="background-image:url(./media/analytics/tensorflow-logo.png);"></div></a>
-              
-                <p class = "tile-explanation">Data Analytics</p>
-                <hr class = "tile-separator">
-                <p class = "tile-description">I have experience analyzing data in a variety of contexts.
-                </p>
-            </div> 
-            <div> </div>
-            <div class = "tile-content">
-                <a href = "https://google.com"><div class = "tile-image-logo" style="background-image:url(./media/analytics/matplotlib-logo.svg);"></div></a>
-              
-                <p class = "tile-explanation">Data Visualization</p>
-                <hr class = "tile-separator">
-                <p class = "tile-description">I have experience visualizing data in a variety of contexts.
-                </p>
-            </div> 
+            <div class = "main-tiles-single">
+                <div></div>
+                <div class = "main-card-section">
+                    <a  class = "icon-link" href = ./pages/become-a-mentee.html>
+                        <div class = "main-icons-middle">
+                                <img class = "icon-image" src="./media/analytics/matplotlib-logo.svg"><img>    
+                                <div class= "icon-text">Data Visualization</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        I am going to include data visualizations that I have created soon.
+                    </p>
+                </div>
 
+                <div></div> 
+            </div>
         </div>
-
     </div>
 </body>
 </html>

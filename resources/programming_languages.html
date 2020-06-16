@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./joe_stephenson_website.css">
     <style>a{color:#000000;}</style>
 </head>
-
 <body class = "page">
     <div class = "body">
         <ul class = "menu-container">
@@ -32,151 +31,136 @@
         </div>    
         <hr class = "header-separator">
 
-        <!--Row 1-->
-        <div class = "language-tiles">
-            <div></div>
-            <!--Column 1-->
-            <div class = "tile-content"><a href = "https://www.rust-lang.org/"><div class = "tile-image-logo" style="background-image:url(./media/languages/rust-logo.png);"></div></a></div> 
-            <div> </div>
-            <!--Column 2-->
-            <div class = "tile-content"><a href = "https://www.python.org/"><div class = "tile-image-logo" style="background-image:url(./media/languages/python-logo.png); "></div></a></div> 
-            <div></div>
-            <!--Column 3-->
-            <div class = "tile-content"><a href = "https://www.w3schools.com/js/"><div class = "tile-image-logo" style="background-image:url(./media/languages/javascript-logo.png); "></div></a></div> 
-            <div></div>
+
+        <div class = "all-card-container">
+            <div class = "main-tiles">
+                <div></div>
+                <div class = "main-card-section">
+                    <a class = "icon-link" href = ./pages/.html>
+                        <div class =  "main-icons-middle">
+                                <img class = "icon-image" src="media/languages/rust-logo.png"><img>    
+                                <div class= "icon-text">Rust</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        Rust is the primary language behind my current project. This is a 
+                        medical messaging parser that converts HL7 messages into SQL. This project uses SQLite as a backend, 
+                        where it is used to label extracted data, and then store that labeled data. 
+                        This project is not public, but if you would like to learn more, reach out!</p>
+            </div>
+                <div class = "main-card-section">
+                    <a  class = "icon-link" href = ./pages/become-a-mentor.html>
+                        <div class = "main-icons-middle">
+                                <img class = "icon-image" src="./media/languages/python-logo.png"><img>    
+                                <div class= "icon-text">Python</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">Python was the first language that I really enjoyed. 
+                        It's abstractions, combined with its great ecosystem, made it the perfect language for me when I first started 
+                        to learn programming. Since then, I have used Python in a variety of research and professional settings. </p>
+                </div>
+                <div class = "main-card-section">
+                    <a  class = "icon-link" href = ./pages/become-a-mentee.html>
+                        <div class = "main-icons-middle">
+                                <img class = "icon-image" src="./media/languages/javascript-logo.png"><img>    
+                                <div class= "icon-text">JavaScript and TypeScript</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        I use JS and TS everyday in my current position. Primarily, I use JS to handle big data within the healthcare space.
+                        JS is great because of its unmatched web-development ecosystem. I have used JS within a variety of frameworks/libraries, 
+                        where i primarily use Angular. 
+                    </p>
+                </div>
+                <div></div> 
+            </div>
+
+            <div class = "main-tiles">
+                <div></div>
+                <div class = "main-card-section">
+                    <a class = "icon-link" href = ./pages/.html>
+                        <div class =  "main-icons-middle">
+                                <img class = "icon-image" src="media/languages/intersystems-logo.png"><img>    
+                                <div class= "icon-text">ObjectScript</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        ObjectScript is an enterprise language that I often use at work.
+                        ObjectScript is a language built on top of InterSystem's Cache. I primarily use this language 
+                        for heavy back-end tasks (Chunking, filtering, normalizing)
+                </p>
+            </div>
+                <div class = "main-card-section">
+                    <a  class = "icon-link" href = ./pages/become-a-mentor.html>
+                        <div class = "main-icons-middle">
+                                <img class = "icon-image" src="./media/languages/sqlite-logo.png"><img>    
+                                <div class= "icon-text">SQL</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">I use SQL in a variety of settings. My go to database for personal projects 
+                        is SQLite, but I have experience using SQL in a variety of settings. My new position puts a heavy
+                        focus on writing more complicated SQL statements.</p>
+                </div>
+                <div class = "main-card-section">
+                    <a  class = "icon-link" href = ./pages/become-a-mentee.html>
+                        <div class = "main-icons-middle">
+                                <img class = "icon-image" src="./media/languages/html-css-logo.png"><img>    
+                                <div class= "icon-text">CSS and HTML</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        I think that using HTML and CSS can be pretty fun. I created this entire website
+                        using basic html and css.
+                    </p>
+                </div>
+                <div></div> 
+            </div>
+
+            <div class = "main-tiles">
+                <div></div>
+                <div class = "main-card-section">
+                    <a class = "icon-link" href = ./pages/.html>
+                        <div class =  "main-icons-middle">
+                                <img class = "icon-image" src="media/languages/xslt-logo.png"><img>    
+                                <div class= "icon-text">XSLT</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        One of the primary ways of sending medical data is a CCD. This is a XML
+                        based record providing information on a medical event. Many hospitals use slightly
+                        different schemas for their CCDs. XSLT is great for normalizing this data.
+                    </p>
+            </div>
+                <div class = "main-card-section">
+                    <a  class = "icon-link" href = ./pages/become-a-mentor.html>
+                        <div class = "main-icons-middle">
+                                <img class = "icon-image" src="./media/languages/java-logo.png"><img>    
+                                <div class= "icon-text">Java</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                    
+                        Java was the language I used in college. Using Java,
+                        I learned the basics of object-oriented programming, data structures
+                        and algorithms.  
+                    </p>
+                </div>
+                <div class = "main-card-section">
+                    <a  class = "icon-link" href = ./pages/become-a-mentee.html>
+                        <div class = "main-icons-middle">
+                                <img class = "icon-image" src="./media/languages/arduino-logo.png"><img>    
+                                <div class= "icon-text">Arduino</div>
+                        </div>
+                    </a>
+                    <p class = "tile-center-description">
+                        One of my main nerd-hobbies is tinkering with electronics. Ardiuno, the language
+                        ubiquitous with electronic tinkering, is pretty close syntatically to C or C++. 
+                        Lately I have been playing around with ESP8266 and an STM32-F3
+                    </p>
+                </div>
+                <div></div> 
+            </div>
         </div>
-
-        <div class = "language-description">
-            <div></div>
-            <!--Column 1-->
-            <div class = "tile-content">
-                <p class = "language-header">Rust</p>
-                <hr class = "tile-separator">
-                <p class = "language-paragraph">Rust the primary language behind my current project. This is a 
-                    medical messaging parser that converts HL7 messages into SQL. This project uses SQLite as a backend, 
-                    where it is used to label extracted data, and then store that labeled data. 
-                    This project is not public, but if you would like to learn more, I would be happy to demo it to you.
-                </p>
-            </div> 
-            <div></div>
-
-            <!--Column 2-->
-            <div class = "tile-content">
-                <p class = "language-header">Python</p>
-                <hr class = "tile-separator">
-                <p class = "language-paragraph">Python was the first language that I really enjoyed. 
-                    It's abstractions, combined with its great ecosystem, made it the perfect language for me when I first started 
-                    to learn programming. Since then, I have used Python in a variety of research and professional settings.
-                </p>
-            </div> 
-            <div></div>
-
-
-            <!--Column 3-->
-            <div class = "tile-content">
-                <p class = "language-header">JavaScript</p>
-                <hr class = "tile-separator">
-                <p class = "language-paragraph">In my new role, I am starting to use JavaScript often. 
-                    At this time, my experience with JS comes from using AngularJS to 
-                    design the ui for a website used by patients.
-                </p>
-            </div> 
-            <div></div>
-        </div>
-
-          <!--Row 2-->
-          <div class = "language-tiles">
-            <div></div>
-            <!--Column 1-->
-            <div class = "tile-content"><a href = "https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_intro"><div class = "tile-image-logo" style="background-image:url(./media/languages/intersystems-logo.png);"></div></a></div> 
-            <div> </div>
-            <!--Column 2-->
-            <div class = "tile-content"><a href = "https://www.sqlite.org/index.html"><div class = "tile-image-logo" style="background-image:url(./media/languages/sqlite-logo.png);"></div></a></div> 
-            <div></div>
-            <!--Column 3-->
-            <div class = "tile-content"><a href = "https://www.w3schools.com/html/html_css.asp"><div class = "tile-image-logo" style="background-image:url(./media/languages/html-css-logo.png);"></div></a></div> 
-            <div></div>
-        </div>
-
-        <div class = "language-description">
-            <div></div>
-            <!--Column 1-->
-            <div class = "tile-content">
-                <p class = "language-header">ObjectScript</p>
-                <hr class = "tile-separator">
-                <p class = "language-paragraph">ObjectScript is an enterprise language that I often use at work.
-                    ObjectScript is a language built on top of InterSystem's Cache. I primarily use this language 
-                    for heavy back-end tasks (Chunking, filtering, normalizing)
-                </p>
-            </div> 
-            <div></div>
-            <!--Column 2-->
-            <div class = "tile-content">
-                <p class = "language-header">SQL</p>
-                <hr class = "tile-separator">
-                <p class = "language-paragraph">I use SQL in a variety of settings. My go to database for personal projects 
-                    is SQLite, but I have experience using SQL in a variety of settings. My new position puts a heavy
-                    focus on writing more complicated SQL statements.
-                </p>
-            </div> 
-            <div></div>
-            <!--Column 3-->
-            <div class = "tile-content">
-                <p class = "language-header">HTML and CSS</p>
-                <hr class = "tile-separator">
-                <p class = "language-paragraph">
-                    I think that using HTML and CSS can be pretty fun. I created this entire website
-                    using basic html and css.
-                </p>
-            </div> 
-
-            <div></div>
-        </div>
-
-          <!--Row 3-->
-          <div class = "language-tiles">
-            <div></div>
-            <!--Column 1-->
-            <div class = "tile-content"><a href = "https://www.w3.org/Style/XSL/"><div class = "tile-image-logo" style="background-image:url(./media/languages/xslt-logo.png); "></div></a></div> 
-            <div></div>
-            <!--Column 2-->
-            <div class = "tile-content"><a href = "https://www.oracle.com/java/"><div class = "tile-image-logo" style="background-image:url(./media/languages/java-logo.png);"></div></a></div> 
-            <div> </div>
-            <!--Column 3-->
-        </div>
-
-        <div class = "language-description">
-            <div></div>
-            <!--Column 1-->
-            <div class = "tile-content">
-                <p class = "language-header">XSLT</p>
-                <hr class = "tile-separator">
-                <p class = "language-paragraph">
-                    One of the primary ways of sending medical data is a CCD. This is a XML
-                    based record providing information on a medical event. Many hospitals use slightly
-                    different schemas for their CCDs. XSLT is great for normalizing this data.
-                </p>
-            </div> 
-
-            <div></div>
-
-            <!--Column 2-->
-            <div class = "tile-content">
-                <p class = "language-header">Java</p>
-                <hr class = "tile-separator">
-                <p class = "language-paragraph">
-                    Java was the language I used in college. Using Java,
-                    I learned the basics of object-oriented programming, data structures
-                    and algorithms. 
-                </p>
-            </div> 
-
-            <div></div>
-
     </div>
-
-
-
-
 </body>
 </html>
