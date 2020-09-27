@@ -6,4 +6,6 @@ I think it is kind of cool because I can track my professional, and technical, d
 
 Right now the homepage of the website is designed to appear as a resume. kind of like in microsoft word. There is a grid at the top containing various categories. These categories all contain a hyperlinks to more traditional looking web pages, describing my experience with that.
 
-Github pages (I believe) only allows statically encoded websites. 
+Github pages (I believe) only allows statically coded websites - which is not true haha.
+
+I have been in the world of web development for a few months now. Taking this webpage which is purely html and css and converting it to use vue-js. Again, this is a learning opportunity for a project at work.

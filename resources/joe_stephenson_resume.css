@@ -7,14 +7,14 @@ li a:hover{
 }
 
 .site {
-    background-image: linear-gradient(-270deg, rgb(203, 203, 203), rgb(226, 227, 232));
+    background-image: linear-gradient( rgb(203, 203, 203), rgb(226, 227, 232));
 }
 
 .page{
     background-color: #ffffff;
-    background-image: linear-gradient(-270deg, rgb(203, 203, 203), rgb(226, 227, 232));
+    background-image: linear-gradient( rgb(203, 203, 203), rgb(226, 227, 232));
     margin-top: 2em;
-    width: 100%;
+    width: 98%;
 }
 
 .body{
@@ -40,6 +40,9 @@ li a:hover{
 .section-header{
     margin-top: 1%;
     font-size: 1.1em;
+}
+.mobile-indicator{
+    display: none
 }
 .section-separator{
     margin: 0px;
@@ -100,6 +103,9 @@ help container
     text-align: right;
     padding-right: 0em;
 }
+.mobile-indicator-wrapper{
+    text-align: left
+}
 
 
 /*
@@ -158,6 +164,12 @@ PROGAMMING
     white-space: nowrap;
     overflow: hidden;
 }
+.mobile-list-item{
+   display: none;
+}
+.desktop-list-item{
+    display: list-item;
+}
 
 /*
 PROFESSIONAL
@@ -183,9 +195,7 @@ PROFESSIONAL
 .job-title {
     font-size: .9em;
 }
-.job-title-previous {
-    font-size: .83em;
-}
+
 .job-elipse{
     text-align: left;
     margin-top: 0px;
@@ -194,9 +204,12 @@ PROFESSIONAL
     font-weight: 800;
     padding-right: 75%
 }
-.job-description{
+.job-description-desktop{
     padding: 2px;
     font-size: .75em;
+}
+.job-description-mobile{
+    display: none;
 }
 .job-when{
     font-size: .6em;
@@ -215,8 +228,16 @@ Education
     margin-top: 1%;
     font-size: .9em;
 }
-.education-description{
+
+.mobile-education-description{
+    display: none;
+}
+.desktop-education-description{
+    display: list-item;
     font-size: .8em;
+}
+.education-place-date{
+    display: inline;
 }
 
 
@@ -246,7 +267,106 @@ Styling for the programming and mathematics coureses
     white-space: nowrap;
     overflow: hidden;
 }
+@media only screen and (max-width: 600px) {
+    .page{
+        background-color: #ffffff;
+        background-image: linear-gradient(rgb(203, 203, 203), rgb(226, 227, 232));
+        margin: auto;
+        padding: 9vh 0 20vh 0;
+    }
+    .body{ 
+        border: 2px solid #000000;
+        border-radius: 4px;
+        background-color: #e4e4e4;
+        box-shadow: 2px 12px 20px 6px rgba(103, 103, 103, 0.331);
+        width: 89%;
+        height: 100%;
+        padding: 10px 10px;
 
+    }
+    
+    /*General*/
+    .section-header{
+        font-size: 4.2vw
+    }
+
+    /*Header*/
+    .main-name{
+        font-size: 4.2vw
+    }
+    .intro-element-main{
+        font-size: 3.2vw;
+    }
+    .mobile-indicator{
+        display: block;
+        margin-block-start: 0em;
+        padding: 1px 6px;
+        font-size: 3vw;
+        color: #236776;
+    }
+
+
+
+    /*Programming*/
+    .programming-element{
+        font-size: 3.6vw;
+    }
+    #programming-container{
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 1%;
+    }
+    .programming-list{
+        font-size: 2.4vw;
+    }
+    .desktop-list-item{
+        display: none;
+    }
+    .mobile-list-item{
+        display: list-item;
+        font-size: 2.4vw;
+    }
+
+    
+
+
+    /*Profession*/
+    .professional-element{
+        white-space: nowrap;
+    }
+    .job-title {
+        font-size: 3.2vw;
+    }
+    .job-when{
+        display: none;
+    }
+    .job-description-mobile{
+        font-size: 2.72vw;
+        display: list-item;
+    }
+    .job-description-desktop{
+        display: none;
+    }
+
+    /*Education*/
+    .education-element{    
+        margin-top: 1%;
+        font-size: 3.2vw;
+    }
+    .mobile-education-description{
+        display: list-item;
+        font-size: 2.7vw;
+    }
+    .desktop-education-description{
+        display: none;
+    }
+    .education-place-date{
+        display: none;
+    }
+
+
+}
 
 
 
