@@ -339,7 +339,7 @@ Styling for the programming and mathematics coureses
         display: none;
     }
     .job-description-mobile{
-        font-size: 2vw;
+        font-size: 80%;
         display: list-item;
     }
     .job-description-desktop{
