@@ -1,7 +1,8 @@
 /*
 GENERAL
 */
-a{color:#000000;} 
+
+a{color:#236776;}
 li a:hover{
     color:#c1c1c1;
 }
@@ -274,7 +275,7 @@ Styling for the programming and mathematics coureses
         background-color: #ffffff;
         background-image: linear-gradient(rgb(203, 203, 203), rgb(226, 227, 232));
         margin: auto;
-        padding: 5vh 0 50vh 0;
+        padding: 6vh 0 15vh 0;
     }
     .body{ 
         border: 2px solid #000000;
@@ -284,7 +285,6 @@ Styling for the programming and mathematics coureses
         width: 89%;
         height: 100%;
         padding: 10px 10px;
-
     }
     
     /*General*/
@@ -325,7 +325,7 @@ Styling for the programming and mathematics coureses
     }
     .mobile-list-item{
         display: list-item;
-        font-size: 2.4vw;
+        font-size: 12px
     }
 
     /*Profession*/
@@ -333,27 +333,34 @@ Styling for the programming and mathematics coureses
         white-space: nowrap;
     }
     .job-title {
-        font-size: 14px;
+        display: flex;
+        font-size: 16px;
     }
     .job-when{
         display: none;
     }
     .job-description-mobile{
-        font-size: 80%;
         display: list-item;
+        font-size: 16px;
     }
     .job-description-desktop{
         display: none;
     }
 
+    #professional-container{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+
     /*Education*/
     .education-element{    
         margin-top: 1%;
-        font-size: 14px;
+        font-size: 16px;
     }
     .mobile-education-description{
         display: list-item;
-        font-size: 12px
+        font-size: 16px
     }
     .desktop-education-description{
         display: none;
