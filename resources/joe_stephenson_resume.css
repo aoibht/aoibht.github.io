@@ -15,6 +15,7 @@ li a:hover{
     background-image: linear-gradient( rgb(203, 203, 203), rgb(226, 227, 232));
     margin-top: 2em;
     width: 98%;
+    height: 120%;
 }
 
 .body{
@@ -67,7 +68,7 @@ li a:hover{
     background-color: none;
     text-align: center;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: scroll;
     font-size: 1vw;
 }
 .professional-list{
@@ -190,6 +191,7 @@ PROFESSIONAL
     margin-top: 1%;
     margin-bottom: 0px;
     margin-top: 0px;
+    overflow: scroll;
 
 }
 .job-title {
@@ -267,12 +269,12 @@ Styling for the programming and mathematics coureses
     white-space: nowrap;
     overflow: hidden;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .page{
         background-color: #ffffff;
         background-image: linear-gradient(rgb(203, 203, 203), rgb(226, 227, 232));
         margin: auto;
-        padding: 9vh 0 20vh 0;
+        padding: 5vh 0 50vh 0;
     }
     .body{ 
         border: 2px solid #000000;
@@ -292,10 +294,10 @@ Styling for the programming and mathematics coureses
 
     /*Header*/
     .main-name{
-        font-size: 4.2vw
+        font-size: 22px
     }
     .intro-element-main{
-        font-size: 3.2vw;
+        font-size: 18px
     }
     .mobile-indicator{
         display: block;
@@ -326,21 +328,18 @@ Styling for the programming and mathematics coureses
         font-size: 2.4vw;
     }
 
-    
-
-
     /*Profession*/
     .professional-element{
         white-space: nowrap;
     }
     .job-title {
-        font-size: 3.2vw;
+        font-size: 14px;
     }
     .job-when{
         display: none;
     }
     .job-description-mobile{
-        font-size: 2.72vw;
+        font-size: 12px;
         display: list-item;
     }
     .job-description-desktop{
@@ -350,11 +349,11 @@ Styling for the programming and mathematics coureses
     /*Education*/
     .education-element{    
         margin-top: 1%;
-        font-size: 3.2vw;
+        font-size: 14px;
     }
     .mobile-education-description{
         display: list-item;
-        font-size: 2.7vw;
+        font-size: 12px
     }
     .desktop-education-description{
         display: none;
