@@ -192,7 +192,6 @@ PROFESSIONAL
     margin-top: 1%;
     margin-bottom: 0px;
     margin-top: 0px;
-    overflow: scroll;
 
 }
 .job-title {
@@ -271,6 +270,10 @@ Styling for the programming and mathematics coureses
     overflow: hidden;
 }
 @media only screen and (max-width: 700px) {
+    #intro-container{
+        display: grid;
+        grid-template-columns: 15% auto 15%;
+    }
     .page{
         background-color: #ffffff;
         background-image: linear-gradient(rgb(203, 203, 203), rgb(226, 227, 232));
