@@ -1,27 +1,31 @@
 /*
 GENERAL
 */
+html {
+    background-color: #0e3e0a28;
+}
 
-a{color:#236776;}
-li a:hover{
-    color:#c1c1c1;
+a {
+    color: #236776;
+}
+li a:hover {
+    color: #c1c1c1;
 }
 
 .site {
-    background-image: linear-gradient( rgb(203, 203, 203), rgb(226, 227, 232));
+    height: 100%;
 }
 
-.page{
-    background-color: #ffffff;
-    background-image: linear-gradient( rgb(203, 203, 203), rgb(226, 227, 232));
-    margin-top: 2em;
+.page {
     width: 98%;
-    height: 120%;
+    margin: 0px;
+    margin-top: 3em;
+    height: 100%;
 }
 
-.body{
-    min-width: 35%;
-    width: 40em;
+.body {
+    min-width: 40em;
+    max-width: 40em;
     margin: auto;
     border: 2px solid #000000;
     border-radius: 4px;
@@ -29,110 +33,104 @@ li a:hover{
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 10px;
-    background-color: #f2f2f2;
     margin-bottom: 4%;
     background-color: #e4e4e4;
     box-shadow: 2px 12px 20px 6px rgba(103, 103, 103, 0.331);
+    height: 100%;
 }
-.body:hover{
+.body:hover {
     box-shadow: 2px 12px 20px 6px rgba(0, 0, 0, 0.331);
     transition: 1s;
 }
 
-.section-header{
+.section-header {
     margin-top: 1%;
     font-size: 1.1em;
 }
-.mobile-indicator{
-    display: none
+.mobile-indicator {
+    display: none;
 }
-.section-separator{
+.section-separator {
     margin: 0px;
     margin-top: 1px;
     border: 1px solid #000000;
     border-radius: 10px;
 }
-.general-paragraph{
+.general-paragraph {
     margin-top: 0px;
     margin-bottom: 0px;
     text-indent: 3%;
     padding: 3px;
-    font-size: .9em;
+    font-size: 0.9em;
 }
-.brief-paragraph{
+.brief-paragraph {
     font-size: 1vw;
 }
-.middle-title{
-    font-size: 1.0em;
+.middle-title {
+    font-size: 1em;
 }
-.paragraph-header{
+.paragraph-header {
     background-color: none;
     text-align: center;
     white-space: nowrap;
     overflow: scroll;
     font-size: 1vw;
 }
-.professional-list{
-    font-size: .9em;
+.professional-list {
+    font-size: 0.9em;
 }
 
 /*
 help container
 */
-#help-container{
+#help-container {
     height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 20% auto 20%;
     grid-template-rows: 2vh;
- 
 }
-.help-button{
-    font-size: .9em;
+.help-button {
+    font-size: 0.9em;
     border: none;
-    border-radius: .5em;
+    border-radius: 0.5em;
     background-color: Transparent;
-    color:#236776;
+    color: #236776;
     font-family: 'Times New Roman', Times, serif;
-
 }
-.help-button:hover{
+.help-button:hover {
     background-color: rgb(154, 154, 154);
-
 }
 
-.contact-element{
+.contact-element {
     text-align: right;
     padding-right: 0em;
 }
-.mobile-indicator-wrapper{
-    text-align: left
+.mobile-indicator-wrapper {
+    text-align: left;
 }
-
 
 /*
 HEADER
 */
-#intro-container{
-    display: grid;
-    grid-template-columns: 20% auto 20%;
+#intro-container {
+    padding: 0px 20%;
 }
-.intro-element-main{
+.intro-element-main {
     border: 1px solid #000000;
     text-align: center;
     padding: 10px;
-    font-size: .9em;
+    font-size: 0.9em;
     border-radius: 4px;
 }
 .main-name {
     font-size: 1.2em;
 }
 
-
 /*
 PROGAMMING
 */
-#programming-container{
+#programming-container {
     height: 100%;
     width: 100%;
     display: grid;
@@ -141,42 +139,43 @@ PROGAMMING
     align-items: center;
     margin-top: 1%;
 }
-.programming-element{
+.programming-element {
     background-color: #abababa7;
-    font-size: 1.0em;
+    font-size: 1em;
     border: 1px solid #000000;
     text-align: center;
     padding: 4px;
     white-space: nowrap;
     overflow: hidden;
+    cursor: default;
 }
-.programming-element:hover{
+.programming-element:hover {
     background-color: #949494;
-
 }
-.programming-list{
+.programming-list {
     background-color: rgb(216, 216, 216);
-    font-size: .75em;
+    font-size: 0.75em;
     border: 1px solid #000000;
     text-align: left;
     padding-left: 4px;
-    padding-bottom:4px;
-    padding-top:1px;
+    padding-bottom: 4px;
+    padding-top: 1px;
     padding-right: 1px;
     white-space: nowrap;
     overflow: hidden;
+    cursor: default;
 }
-.mobile-list-item{
-   display: none;
+.mobile-list-item {
+    display: none;
 }
-.desktop-list-item{
+.desktop-list-item {
     display: list-item;
 }
 
 /*
 PROFESSIONAL
 */
-#professional-container{
+#professional-container {
     height: 100%;
     width: 100%;
     display: grid;
@@ -184,125 +183,161 @@ PROFESSIONAL
     background-color: none;
     margin-bottom: 0px;
     margin-top: 0px;
-
 }
-.professional-element{
+.professional-element {
     background-color: None;
     padding: 2px;
     margin-top: 1%;
     margin-bottom: 0px;
     margin-top: 0px;
-
 }
+
+.professional-element-connected {
+    background-color: None;
+    padding: 2px;
+    margin-top: 1%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-left: solid 1px;
+    /* height: 92%; */
+}
+
+.intro-company {
+    border-left: solid 1px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.nest-list-description {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 25px;
+}
+
+.intro-name {
+    height: 0px;
+    border-top: solid 1px;
+    width: 10px;
+    float: left;
+}
+
+.end-name {
+    height: 0px;
+    border-bottom: solid 1px;
+    width: 10px;
+    float: left;
+}
+
 .job-title {
-    font-size: .9em;
+    font-size: 14px;
 }
 
-.job-elipse{
+.job-title-nested {
+    font-size: 12px;
+}
+
+.job-elipse {
     text-align: left;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: .75em;
+    font-size: 0.75em;
     font-weight: 800;
-    padding-right: 75%
+    padding-right: 75%;
 }
-.job-description-desktop{
+.job-description-desktop {
     padding: 2px;
-    font-size: .75em;
+    font-size: 0.75em;
 }
-.job-description-mobile{
+.job-description-mobile {
     display: none;
 }
-.job-when{
-    font-size: .6em;
+.job-when {
+    font-size: 0.6em;
     display: inline;
+    font-weight: 400;
 }
 
 /*
 Education
 */
-#education-container{
+#education-container {
     display: grid;
     grid-template-columns: auto;
     background-color: none;
 }
-.education-element{    
+.education-element {
     margin-top: 1%;
-    font-size: .9em;
+    font-size: 0.9em;
 }
 
-.mobile-education-description{
+.mobile-education-description {
     display: none;
 }
-.desktop-education-description{
+.desktop-education-description {
     display: list-item;
-    font-size: .8em;
+    font-size: 0.8em;
 }
-.education-place-date{
+.education-place-date {
     display: inline;
 }
-
-
-
-
-
-
 
 /*
 Styling for the programming and mathematics coureses
 */
-.course-container{
+.course-container {
     height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 35% auto 10%;
     background-color: none;
 }
-.course-name{
+.course-name {
     background-color: clear;
     font-size: 1em;
     text-align: left;
     padding-left: 0px;
-    padding-bottom:1px;
-    padding-top:0px;
+    padding-bottom: 1px;
+    padding-top: 0px;
     padding-right: 1px;
     white-space: nowrap;
     overflow: hidden;
 }
 @media only screen and (max-width: 700px) {
-    #intro-container{
-        display: grid;
-        grid-template-columns: 15% auto 15%;
+    #intro-container {
+        grid-template-columns: auto;
+        padding: 0px 15%;
     }
-    .page{
-        background-color: #ffffff;
-        background-image: linear-gradient(rgb(203, 203, 203), rgb(226, 227, 232));
+    .page {
         margin: auto;
-        padding: 6vh 0 15vh 0;
+        /* padding: 6vh 0 15vh 0; */
+        padding: 30px 0px 50px 0px;
     }
-    .body{ 
+    .body {
         border: 2px solid #000000;
         border-radius: 4px;
         background-color: #e4e4e4;
         box-shadow: 2px 12px 20px 6px rgba(103, 103, 103, 0.331);
-        width: 89%;
         height: 100%;
         padding: 10px 10px;
+        max-width: 93%;
+        min-width: 93%;
     }
-    
+
     /*General*/
-    .section-header{
-        font-size: 4.2vw
+    .section-header {
+        font-size: 4.2vw;
     }
 
     /*Header*/
-    .main-name{
-        font-size: 22px
+    .main-name {
+        font-size: 18px;
     }
-    .intro-element-main{
-        font-size: 18px
+    .intro-element-main {
+        font-size: 14px;
     }
-    .mobile-indicator{
+    .mobile-indicator {
         display: block;
         margin-block-start: 0em;
         padding: 1px 6px;
@@ -311,71 +346,69 @@ Styling for the programming and mathematics coureses
     }
 
     /*Programming*/
-    .programming-element{
+    .programming-element {
         font-size: 3.6vw;
+        cursor: pointer;
     }
-    #programming-container{
+    #programming-container {
         height: 100%;
         display: grid;
         grid-template-columns: auto auto auto auto;
         margin-top: 1%;
     }
-    .programming-list{
+    .programming-list {
         font-size: 2.4vw;
     }
-    .desktop-list-item{
+    .desktop-list-item {
         display: none;
     }
-    .mobile-list-item{
+    .mobile-list-item {
         display: list-item;
-        font-size: 12px
+        font-size: 12px;
     }
 
     /*Profession*/
-    .professional-element{
+    .professional-element {
         white-space: nowrap;
     }
     .job-title {
         display: flex;
-        font-size: 16px;
+        font-size: 14px;
     }
-    .job-when{
-        display: none;
-    }
-    .job-description-mobile{
-        display: list-item;
-        font-size: 16px;
-    }
-    .job-description-desktop{
+    .job-when {
         display: none;
     }
 
-    #professional-container{
+    .job-title-nested {
+        font-size: 14px;
+    }
+
+    .job-description-mobile {
+        display: list-item;
+        font-size: 14px;
+    }
+    .job-description-desktop {
+        display: none;
+    }
+
+    #professional-container {
         margin-bottom: 0px;
         margin-top: 0px;
     }
 
-
     /*Education*/
-    .education-element{    
+    .education-element {
         margin-top: 1%;
-        font-size: 16px;
+        font-size: 14px;
     }
-    .mobile-education-description{
+    .mobile-education-description {
         display: list-item;
-        font-size: 16px
+        font-size: 14px;
     }
-    .desktop-education-description{
+    .desktop-education-description {
         display: none;
     }
-    .education-place-date{
+    .education-place-date {
         display: none;
     }
-
-
 }
-
-
-
-
-
