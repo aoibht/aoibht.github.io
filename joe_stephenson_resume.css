@@ -379,6 +379,10 @@ Styling for the programming and mathematics coureses
         display: none;
     }
 
+    .intro-company {
+        font-size: 14px;
+    }
+
     .job-title-nested {
         font-size: 14px;
     }
