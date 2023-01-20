@@ -2,7 +2,7 @@
 GENERAL
 */
 html {
-    background-color: #0e3e0a28;
+    background-color: #0e3e0a12;
 }
 
 a {
@@ -389,7 +389,7 @@ Styling for the programming and mathematics coureses
 
     .job-description-mobile {
         display: list-item;
-        font-size: 14px;
+        font-size: 13px;
     }
     .job-description-desktop {
         display: none;
