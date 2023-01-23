@@ -205,7 +205,7 @@ PROFESSIONAL
 .intro-company {
     border-left: solid 1px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     padding-left: 3px;
     padding-top: 3px;
 }
@@ -371,6 +371,7 @@ Styling for the programming and mathematics coureses
     .professional-element {
         white-space: nowrap;
     }
+    
     .job-title {
         display: flex;
         font-size: 14px;
@@ -389,7 +390,7 @@ Styling for the programming and mathematics coureses
 
     .job-description-mobile {
         display: list-item;
-        font-size: 13px;
+        font-size: 12px;
     }
     .job-description-desktop {
         display: none;
