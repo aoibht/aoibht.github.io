@@ -259,6 +259,13 @@ PROFESSIONAL
     font-weight: 400;
 }
 
+.mobile-job-when{
+    margin: auto;
+    font-size: 8px;
+    display: inline;
+    font-weight: 400;
+}
+
 /*
 Education
 */
@@ -371,7 +378,7 @@ Styling for the programming and mathematics coureses
     .professional-element {
         white-space: nowrap;
     }
-    
+
     .job-title {
         display: flex;
         font-size: 14px;
@@ -399,6 +406,7 @@ Styling for the programming and mathematics coureses
     #professional-container {
         margin-bottom: 0px;
         margin-top: 0px;
+        overflow: scroll;
     }
 
     /*Education*/
