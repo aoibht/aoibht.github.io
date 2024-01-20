@@ -4,26 +4,24 @@
     <title>Joe's Resume</title>
 
     <link rel="icon" type="" href="./pink-bear.png"></link>
-    <meta charset="utf-8" name="viewport" 
-    content= "width=device-width, initial-scale=.8"> 
+    <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=.8"> 
     <link rel="stylesheet" href="./joe_stephenson_resume.css">
-
 </head>
 
 <body class = "page">
-    <div class = "body">
+    <div class = "resume-component">
         <div id = "help-container">
             <div class = "mobile-indicator-wrapper"><p class = "mobile-indicator">Mobile</p></div> 
             <div class = "contact-element"></div>
             <div class = "contact-element">
-                <button onclick= "alert('You are looking at a website I built to host my resume. \n I designed this\ resume for two things:\n            1.) Work as a printable resume.\n            2.) Act as a gateway to my programming portfolio. \n Follow the links below to learn more about my experience.')"  class = "help-button">?</button>
+                <button onclick= "alert('You are looking at a website I built to host my resume. \n I designed this\ resume for two things:\n \t 1.) Work as a printable resume.\n \t 2.) Act as a gateway to my programming portfolio. \n Follow the links below to learn more about my experience.')"  class = "help-button">?</button>
             </div>
         </div>
 
         <div id = "intro-container">
             <div class = "intro-element-main">
-                <b class = "main-name">Joe S.</b><br>
-                Software Engineer <br>
+                <b class = "your-name">Joe S.</b><br>
+                Sr. Software Engineer <br>
                 <a href = "https://resumejoe.com/">Resumejoe.com</a> | <a href = 'https://www.subtyping.com/'>Subtyping.com </a>
             </div>
         </div>
@@ -31,167 +29,144 @@
         <div class = "section-header">Programming</div>
         <hr class = "section-separator">
 
-        <div id = "programming-container">
-            <a class = "programming-element">Languages</a>
-            <a class = "programming-element">Cloud</a>
-            <a class = "programming-element">Client</a>
-            <a class = "programming-element">Data Analytics</a> 
-            <div class = "programming-list">
-                <!--Desktop-->
-                <li class = "desktop-list-item">JavaScript (TS) - Web</li>
-                <li class = "desktop-list-item">Python - General</li>
-                <li class = "desktop-list-item">Rust - General </li>
-                <li class = "desktop-list-item">SQL - Back-End</li>
-                <li class = "desktop-list-item">Java - School</li>
-
-                <!--Mobile-->
-                <li class = "mobile-list-item">Python</li>
-                <li class = "mobile-list-item">JavaScript</li>
-                <li class = "mobile-list-item">Rust</li>
-                <li class = "mobile-list-item">SQL</li>
-                <li class = "mobile-list-item">Java</li>
-
+        <div id = "programming-table-container">
+            <div class = "programming-table-element">
+                <div class = 'programming-table-element-title first-column'>Languages</div>
+                <div class = "programming-list first-column">
+                    <li class = "programming-list-item ">JavaScript (TS)</li>
+                    <li class = "programming-list-item">Python</li>
+                    <li class = "programming-list-item">Rust </li>
+                    <li class = "programming-list-item">SQL</li>
+                    <li class = "programming-list-item">ObjectScript</li>
+    
+                </div>
             </div>
-            <div class = "programming-list">
-                <!--Desktop-->
-                <li class = "desktop-list-item">Compute - AWS EC2, Batch, Lambda</li>
-                <li class = "desktop-list-item">Storage - AWS S3, RDS</li>
-                <li class = "desktop-list-item">Networking - AWS VPC, API, R53</li>
-                <li class = "desktop-list-item">Deployment - AWS Amplify, ECS</li>
-                <li class = "desktop-list-item">Identity - AWS IAM, Cognito</li>
-
-                <!--Mobile-->
-                <li class = "mobile-list-item">Compute</li>       
-                <li class = "mobile-list-item">Storage</li>
-                <li class = "mobile-list-item">Networking</li>
-                <li class = "mobile-list-item">Deployment</li>
-                <li class = "mobile-list-item">Identity</li>
-
+            <div class = "programming-table-element">
+                <div class = 'programming-table-element-title'>Front-End</div>
+                <div class = "programming-list">
+                    <li class = "programming-list-item">React</li>
+                    <li class = "programming-list-item">Redux, Hooks</li>
+                    <li class = "programming-list-item">html (incl. jsx)</li>
+                    <li class = "programming-list-item">css (incl. sass)</li>
+                    <li class = "programming-list-item">json and xml</li>
+    
+                </div> 
+            </div>
+            <div class = "programming-table-element">
+                <div class = 'programming-table-element-title'>AWS Services</div>
+                <div class = "programming-list">
+                    <li class = "programming-list-item">ECS, EC2, Lambda</li>       
+                    <li class = "programming-list-item">S3, RDS</li>
+                    <li class = "programming-list-item">VPC, API, R53</li>
+                    <li class = "programming-list-item">Amplify, Pipeline</li>
+                    <li class = "programming-list-item">IAM, Cognito</li>
+    
+                </div> 
+            </div>
+            <div class = "programming-table-element">
+                <div class = 'programming-table-element-title'>Data Analytics</div>
+                <div class = "programming-list"> 
+                    <li class = "programming-list-item ">BS4 + Selenium</li>
+                    <li class = "programming-list-item">Numpy + Pandas</li>
+                    <li class = "programming-list-item">Scikit-learn</li>
+                    <li class = "programming-list-item">Tensorflow + Keras</li>
+                    <li class = "programming-list-item">Matplotlib + Graphviz</li>
+                </div>
             </div> 
-            <div class = "programming-list">
-                <!--Desktop-->
-                <li class = "desktop-list-item">React</li>
-                <li class = "desktop-list-item">Redux, Hooks</li>
-                <li class = "desktop-list-item">html (incl. jsx)</li>
-                <li class = "desktop-list-item">css (incl. sass)</li>
-                <li class = "desktop-list-item">json and xml</li>
 
-                <!--Mobile-->
-                <li class = "mobile-list-item">React</li>
-                <li class = "mobile-list-item">Redux + Hooks</li>
-                <li class = "mobile-list-item">html (incl. jsx)</li>
-                <li class = "mobile-list-item">css (incl. sass)</li>
-                <li class = "mobile-list-item">json and xml</li>
-
-            </div> 
-            <div class = "programming-list"> 
-                <!--Desktop-->
-                <li class = "desktop-list-item">Wrangling - BS4, Selenium</li>
-                <li class = "desktop-list-item">Cleaning - Numpy, Pandas</li>
-                <li class = "desktop-list-item">Pre-Processing - Scikit</li>
-                <li class = "desktop-list-item">Analytics - Tensorflow, Keras</li>
-                <li class = "desktop-list-item">Visuals - Matplotlib, Graphviz</li>
-
-                <!--Mobile-->
-                <li class = "mobile-list-item">BS4 + Selenium</li>
-                <li class = "mobile-list-item">Numpy + Pandas</li>
-                <li class = "mobile-list-item">Scikit-learn</li>
-                <li class = "mobile-list-item">Tensorflow + Keras</li>
-                <li class = "mobile-list-item">Matplotlib + Graphviz</li>
+            <div class = "programming-table-element last-row">
+                <div class = 'programming-table-element-title first-column'>Databases</div>
+                <div class = "programming-list first-column">
+                    <li class = "programming-list-item">Postgres</li>
+                    <li class = "programming-list-item">MySQL</li>
+                    <li class = "programming-list-item">Cache</li>
+                </div>
             </div>
-            <a class = "programming-element">Databases</a>
-            <a class = "programming-element">General</a> 
-            <a class = "programming-element">Healthcare</a>
-            <a class = "programming-element">Current Projects</a>
-            <div class = "programming-list">
-                <!--Desktop-->
-                <li class = "desktop-list-item">Postgres</li>
-                <li class = "desktop-list-item">MySQL</li>
-                <li class = "desktop-list-item">Cache</li>
-
-                <!--Mobile-->
-                <li class = "mobile-list-item">PostgreSQL</li>
-                <li class = "mobile-list-item">MySQL</li>
-                <li class = "mobile-list-item">ISC Cache</li>
+            <div class = "programming-table-element last-row">
+                <div class = 'programming-table-element-title'>Healthcare</div>
+                <div class = "programming-list">
+                    <li class = "programming-list-item">HL7 v2/v3/v4</li>
+                    <li class = "programming-list-item">SMART on FHIR</li>
+                    <li class = "programming-list-item">Healthshare</li>
+                </div> 
             </div>
-
-            <div class = "programming-list"> 
-                <!--Desktop-->
-                <li class = "desktop-list-item">OS - (macOS, Windows, Linux)</li>
-                <li class = "desktop-list-item">Version Control - Git</li>
-                <li class = "desktop-list-item">Data Orchestration - Dagster</li>
-
-                <!--Mobile-->
-                <li class = "mobile-list-item">osx, win, linux</li>
-                <li class = "mobile-list-item">vcs - git</li>
-                <li class = "mobile-list-item">doe - dagster</li>
+            <div class = "programming-table-element last-row">
+                <div class = 'programming-table-element-title'>General</div>
+                <div class = "programming-list">
+                    <li class = "programming-list-item">Operating Systems</li>
+                    <li class = "programming-list-item">Google Maps</li>
+                    <li class = "programming-list-item">Git</li>
+    
+                </div> 
             </div>
-            <div class = "programming-list">
-                <!--Desktop-->
-                <li class = "desktop-list-item">HL7 v2/v3/v4</li>
-                <li class = "desktop-list-item">SMART on FHIR</li>
-                <li class = "desktop-list-item">Healthshare</li>
-
-                <!--Mobile-->
-                <li class = "mobile-list-item">HL7 v2/v3/v4</li>
-                <li class = "mobile-list-item">SMART on FHIR</li>
-                <li class = "mobile-list-item">Healthshare</li>
-            </div> 
-            <div class = "programming-list">
-                <!--Desktop-->
-                <li class = "desktop-list-item"><a href = "https://www.subtyping.com/visualizations/">JSON-Graphs</a></li>
-                <li class = "desktop-list-item"><a href = "https://github.com/aoibht/FHIR-Scrape">FHIR Scraper</a></li>
-                <li class = "desktop-list-item"><a href = "https://github.com/aoibht/aoibht.github.io">This Website</a></li>
-
-                <!--Mobile-->
-                <li class = "mobile-list-item"><a href = "https://www.subtyping.com/visualizations/">JSON-Graphs</a></li>
-                <li class = "mobile-list-item"><a href = "https://github.com/aoibht/FHIR-Scrape">FHIR Scraper</a></li>
-                <li class = "mobile-list-item"><a href = "https://github.com/aoibht/aoibht.github.io">This Website</a></li>
+            <div class = "programming-table-element last-row">
+                <div class = 'programming-table-element-title'>Current Projects</div>
+                <div class = "programming-list"> 
+                    <li class = "programming-list-item"><a href = "https://www.subtyping.com/visualizations/">JSON-Graphs</a></li>
+                    <li class = "programming-list-item"><a href = "https://github.com/aoibht/FHIR-Scrape">FHIR Scraper</a></li>
+                    <li class = "programming-list-item"><a href = "https://github.com/aoibht/aoibht.github.io">This Website</a></li>
+                </div>
             </div> 
         </div>
+
+
 
         <div class = "section-header">Professional Experience</div>
         <hr class = "section-separator">
         <div id = "professional-container">
-            <div class = "professional-element">
-                <b class = "job-title">Full Stack Software Engineer | Health Data Analytics Institute </b> <p class = "job-when">- Greater Boston, MA - March 2021 to Present </p>
-                <!--Desktop-->
-                <li class = "job-description-desktop">Developed analytics platform used to better understand population and patient healthcare data.</li>
-                <li class = "job-description-desktop">Rapidly scaled platform from {not public} to {not public} patients using Node, AWS Batch, and AWS RDS.</li>
-                <li class = "job-description-desktop">Collaborated on a small agile team to build analytics platform's UI using React, Typescript, and Redux.</li>
-                <li class = "job-description-desktop">Built integration workflow for EMR FHIR data using Python's Dagster and AWS RDS.</li>
-                
-                <!--Mobile-->
-                <li class = "job-description-mobile">Developed ETL process for EMR data.</li>
-                <li class = "job-description-mobile">Rapidly scaled platform using Python and AWS.</li>
-                <li class = "job-description-mobile">Built UIs with small agile team using React TS</li>
-            </div>
             <div class = "intro-name"></div>
-            <span class = 'intro-company'>XchangeWorx | Healthcare Software<p class = "job-when">- Albany, NY - June 2019 to March 2021 </p></span>
+            <span class = 'intro-company'>Healthcare Software - Health Data Analytics Institute <p class = "job-when">- Greater Boston, MA - March 2021 to present </p></span>
+                <div class = "professional-element-connected">
+                    <li>
+                        <b class = "job-title-nested">Sr. Full Stack Software Engineer </b> <p class = "job-when">- July 2023 to present </p>
+                        <ul class="nest-list-description">
+                            <!--Desktop-->
+                            <li class = "job-description-desktop">Lead development of a network analytics tool (React-TS + Google Maps) to manage post-acute care networks.</li>
+                            <li class = "job-description-desktop">Created ETL pipelines using Python + Dagster to populate data required for post-acute care tool</li>
+                            
+                            <!--Mobile-->
+                            <li class = "job-description-mobile">Built network analytics and visualization tool using React and Google Maps.</li>
+                            <li class = "job-description-mobile">Created ELT pipelines for data used by the network analytics tool.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b class = "job-title-nested">Full Stack Software Engineer </b> <p class = "job-when">- March 2021 to July 2023</p>
+                        <ul class="nest-list-description">
+                            <!--Desktop-->
+                            <li class = "job-description-desktop">Collaborated on a small agile team to build population health analytics platform.</li>
+                            <li class = "job-description-desktop">Contributed towards ETL and security storing FHIR data retrieved hospitals.</li>
+
+                            <!--Mobile-->
+                            <li class = "job-description-mobile">Collaborated on a small agile team to build analytics platform's UI. </li>
+                            <li class = "job-description-mobile">Contributed towards ETL and security storing FHIR data retrieved hospitals.</li>
+                        </ul>
+                    </li>
+                </div>
+            <div class = "end-name"></div>
+            <div class = "intro-name"></div>
+            <span class = 'intro-company'>Healthcare Software - XchangeWorx<p class = "job-when">- Albany, NY - June 2019 to March 2021 </p></span>
                 <div class = "professional-element-connected">
                     <li>
                         <b class = "job-title-nested">Software Engineer - Data Visualization </b> <p class = "job-when">- March 2020 to March 2021 </p>
                         <ul class="nest-list-description">
                             <!--Desktop-->
                             <li class = "job-description-desktop">Built front-end components integrating Apple Health with the Health Information Exchange of New York.</li>
-                            <li class = "job-description-desktop">Contributed to data quality projects tracking Covid-19 for New York State Department of Health.</li>
+                            <li class = "job-description-desktop">Contributed to data quality projects tracking Covid-19 for the New York State Department of Health.</li>
                             
                             <!--Mobile-->
-                            <li class = "job-description-mobile">Developed smart on fhir applications for large emr vendors.</li>
-                            <li class = "job-description-mobile">Primary developer redesigning an AngularJS website.</li>
-                            <li class = "job-description-mobile">Integrated Apple Health with Hixny. </li>
+                            <li class = "job-description-mobile">Front-end developer integrating Apple Health with Hixny.</li>
+                            <li class = "job-description-mobile">Worked on data quality projects tracking Covid-19 for NYS DOH. </li>
                         </ul>
                     </li>
                     <li>
-                        <b class = "job-title-nested">Junior Software Engineer </b> <p class = "job-when">- June 2019 to March 2020</p>
+                        <b class = "job-title-nested">Jr. Software Engineer </b> <p class = "job-when">- June 2019 to March 2020</p>
                         <ul class="nest-list-description">
                             <!--Desktop-->
-                            <li class = "job-description-desktop">Junior Software Engineer at the health information exchange covering Eastern New York and Southern Vermont.</li>
-                            <li class = "job-description-desktop">Designed data normalizations for regional health organizations enabling bidirectional patient data feeds.</li>
+                            <li class = "job-description-desktop">Supported the health information exchange responsible for Eastern New York and Southern Vermont.</li>
+                            <li class = "job-description-desktop">Designed HL7 data normalizations for regional health organizations enabling bidirectional patient data feeds.</li>
 
                             <!--Mobile-->
-                            <li class = "job-description-mobile">Designed data normalizations enabling bidirectional feeds.</li>
-                            <li class = "job-description-mobile">Addressed break/fixes to improve hospitals data quality.</li>
+                            <li class = "job-description-mobile">Designed HL7 data normalizations enabling bidirectional feeds.</li>
                             <li class = "job-description-mobile">Awarded certification in SQL from InterSystems.</li>
                         </ul>
                     </li>
@@ -199,44 +174,43 @@
             <div class = "end-name"></div>
             <div class = "professional-element">
                 <!--Desktop-->
-                <b class = "job-title">Research Fellow | Sanger Research Program</b> <div class = "job-when"> - Beloit, Wi - May 2018 to January 2019 </div>
-                <li class = "job-description-desktop">2018 Endowed Sanger Scholar studying the forecasting strategies adopted by neural networks.</li>
-                <li class = "job-description-desktop">Programmed stacked convolutional and gated recurrent neural networks to predict market behavior.</li>
+                <b class = "job-title">Research Fellow | Sanger Research Program</b> <div class = "job-when"> - Beloit, WI - May 2018 to January 2019 </div>
+                <li class = "job-description-desktop">2018 Sanger Endowed Scholar studying the forecasting strategies developed using neural networks.</li>
+                <li class = "job-description-desktop">Compared the forecasting patterns of stacked convolutional and gated recurrent neural networks.</li>
 
                 <!--Mobile-->
-                <li class = "job-description-mobile">Forecasted non-stationary data using neural networks</li>
+                <li class = "job-description-mobile">Compared the forecasting strategies developed using neural networks</li>
                 <li class = "job-description-mobile">Created large dataset by automating various financial APIs.</li>
-                <li class = "job-description-mobile">Presented research at Wisconsin Economic Association</li>
             </div>
             <div class = "professional-element">
-                <b class = "job-title">Teaching Assistant | Beloit College Department of Economics</b> <div class = "job-when">- Beloit, Wi - August 2017 to December 2018</div>
+                <b class = "job-title">Teaching Assistant | Beloit College Department of Economics</b> <div class = "job-when">- Beloit, WI - August 2017 to December 2018</div>
                 <!--Desktop-->
-                <li class = "job-description-desktop">Teaching Assistant for Dr. Jermaine Moulton - assisting an advanced marketing research workshop.</li>
-                <li class = "job-description-desktop">Teaching Assistant for Dr. Bob Elder  - assisting an introductory quantitative economics class.</li>
+                <li class = "job-description-desktop">Teaching Assistant for Dr. Jermaine Moulton - assisting an advanced marketing research workshop (ECON 302).</li>
+                <li class = "job-description-desktop">Teaching Assistant for Dr. Bob Elder  - assisting an introductory quantitative economics class (ECON 199).</li>
 
                 <!--Mobile-->
                 <li class = "job-description-mobile">Assistant for Dr. Jermaine Moulton - Marketing Research.</li>
                 <li class = "job-description-mobile">Assistant for Dr. Bob Elder  - Principles of Economics.</li>
             </div> 
             <div class = "professional-element">
-                <b class = "job-title">Marketing Research Intern | Kerry</b> <div class = "job-when">- Beloit, Wi - Spring Semester 2018 </div>
+                <b class = "job-title">Marketing Research Intern | Kerry</b> <div class = "job-when">- Beloit, WI - Spring Semester 2018</div>
                 <!--Desktop-->
-                <li class = "job-description-desktop">Forecasted consumer flavor preferences in the U.S. using both big data and qualitative analytics.</li>
-                <li class = "job-description-desktop">Examined the influence of international flavor preferences on domestic consumer preferences.</li>
+                <li class = "job-description-desktop">Marketing research into consumer flavor preferences in the United States.</li>
+                <li class = "job-description-desktop">Examined the influence popular flavors from around the world had on consumer preferences.</li>
 
                 <!--Mobile-->
                 <li class = "job-description-mobile">Studied and forecasted flavor trends in the United States.</li>
-                <li class = "job-description-mobile">Forecasted using qualitative and quantitative sources.</li>
+                <li class = "job-description-mobile">Marketing research using data analytics and qualitative research.</li>
             </div> 
             <div class = "professional-element">
                 <b class = "job-title">AmeriCorps Member | AmeriCorps</b> <div class = "job-when"> - Summer 2016 and Summer 2017 </div>
                 <!--Desktop-->
-                <li class = "job-description-desktop">2017 Americorps summer service as a construction worker - Rebuilding Together in North Carolina.</li>
-                <li class = "job-description-desktop">2016 AmeriCorps summer service as a camp counselor to people with disabilities - Easter Seals in Wisconsin.</li>
+                <li class = "job-description-desktop">2017 AmeriCorps summer service with Rebuilding Together in North Carolina.</li>
+                <li class = "job-description-desktop">2016 AmeriCorps summer service with Easter Seals of Wisconsin.</li>
 
                 <!--Mobile-->
-                <li class = "job-description-mobile">2017 Americorps Rebuilding Together of the Triangle</li>
-                <li class = "job-description-mobile">2016 AmeriCorps Easter Seals - Respite Camp</li>
+                <li class = "job-description-mobile">2017 AmeriCorps With Rebuilding Together of the Triangle.</li>
+                <li class = "job-description-mobile">2016 AmeriCorps With Easter Seals of Wisconsin.</li>
             </div> 
         </div>
 
@@ -247,11 +221,11 @@
                 <b>Beloit College</b> | Major: <b>Economics</b>; Minor: <b> Physics </b> <div class = "education-place-date">- Beloit, WI. - 2015 to 2019 </div>
                 <!--Desktop-->
                 <li class = "desktop-education-description"> GPA - Major: 3.32 / 4.00 - Advanced coursework in mathematics, physics, computer science, and economics.</li>
-                <li class = "desktop-education-description"> Captain of Beloit College Swim and Dive Team For 3 Years | Director of Beloit College Programming Board For 1 Year.</li>
+                <li class = "desktop-education-description"> Captain of Beloit College's NCAA Swim and Dive Team For 3 Years | Director of Beloit College Programming Board For 1 Year.</li>
 
                 <!--Mobile-->
                 <li class = "mobile-education-description">GPA - Major: 3.32 / 4.00 - 2018 Sanger Scholar</li>
-                <li class = "mobile-education-description">Captain of the Swim and Dive Team - Three Years</li>
+                <li class = "mobile-education-description">Captain of the NCAA Swim and Dive Team - Three Years</li>
                 <li class = "mobile-education-description">Director of the Programming Board - One Year</li>
             </div>
         </div>

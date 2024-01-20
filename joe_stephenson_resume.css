@@ -2,43 +2,40 @@
 GENERAL
 */
 html {
-    background-color: #0e3e0a12;
+    background-color: #78d4d412;
+    cursor: default
 }
 
 a {
     color: #236776;
 }
-li a:hover {
-    color: #c1c1c1;
-}
-
-.site {
-    height: 100%;
-}
 
 .page {
     width: 98%;
-    margin: 0px;
-    margin-top: 3em;
     height: 100%;
+    margin: 0px;
+    margin-top: 1em;
+
 }
 
-.body {
+.resume-component {
     min-width: 40em;
     max-width: 40em;
     margin: auto;
-    border: 2px solid #000000;
+    border: 1.5px solid #000000;
     border-radius: 4px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 10px;
     margin-bottom: 4%;
-    background-color: #e4e4e4;
+    background-color: #f3f3f3;
+    transition: 1s;
     box-shadow: 2px 12px 20px 6px rgba(103, 103, 103, 0.331);
     height: 100%;
 }
-.body:hover {
+
+.resume-component:hover {
     box-shadow: 2px 12px 20px 6px rgba(0, 0, 0, 0.331);
     transition: 1s;
 }
@@ -47,38 +44,22 @@ li a:hover {
     margin-top: 1%;
     font-size: 1.1em;
 }
+
+.mobile-indicator-wrapper {
+    text-align: left;
+}
+
 .mobile-indicator {
     display: none;
 }
+
 .section-separator {
     margin: 0px;
     margin-top: 1px;
-    border: 1px solid #000000;
+    border: .5px solid #000000;
     border-radius: 10px;
 }
-.general-paragraph {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-indent: 3%;
-    padding: 3px;
-    font-size: 0.9em;
-}
-.brief-paragraph {
-    font-size: 1vw;
-}
-.middle-title {
-    font-size: 1em;
-}
-.paragraph-header {
-    background-color: none;
-    text-align: center;
-    white-space: nowrap;
-    overflow: scroll;
-    font-size: 1vw;
-}
-.professional-list {
-    font-size: 0.9em;
-}
+
 
 /*
 help container
@@ -90,6 +71,7 @@ help container
     grid-template-columns: 20% auto 20%;
     grid-template-rows: 2vh;
 }
+
 .help-button {
     font-size: 0.9em;
     border: none;
@@ -97,18 +79,19 @@ help container
     background-color: Transparent;
     color: #236776;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
+
 .help-button:hover {
-    background-color: rgb(154, 154, 154);
+    background-color: rgb(213, 213, 213);
 }
 
 .contact-element {
     text-align: right;
     padding-right: 0em;
 }
-.mobile-indicator-wrapper {
-    text-align: left;
-}
+
+
 
 /*
 HEADER
@@ -116,21 +99,26 @@ HEADER
 #intro-container {
     padding: 0px 20%;
 }
+
 .intro-element-main {
     border: 1px solid #000000;
     text-align: center;
     padding: 10px;
     font-size: 0.9em;
     border-radius: 4px;
+    cursor: default;
 }
-.main-name {
+
+.your-name {
     font-size: 1.2em;
 }
 
 /*
-PROGAMMING
+PROGRAMMING
 */
-#programming-container {
+  
+
+#programming-table-container {
     height: 100%;
     width: 100%;
     display: grid;
@@ -139,23 +127,34 @@ PROGAMMING
     align-items: center;
     margin-top: 1%;
 }
-.programming-element {
-    background-color: #abababa7;
+
+.programming-table-element {
     font-size: 1em;
-    border: 1px solid #000000;
     text-align: center;
-    padding: 4px;
     white-space: nowrap;
     overflow: hidden;
     cursor: default;
+    color: #236776;
+    border-top: 1.5px solid #000000;
+    border-right: 1.5px solid #000000;
 }
-.programming-element:hover {
-    background-color: #949494;
+
+.programming-table-element-title{
+    background-color: rgba(175, 182, 187, 0.251);
+    padding: 5px 0px;
+    border-bottom: 1.5px solid #000000;
 }
+
+.first-column{
+    border-left: 1.5px solid black;
+}
+
+.last-row{
+    border-bottom: 1.5px solid black;
+}
+
 .programming-list {
-    background-color: rgb(216, 216, 216);
     font-size: 0.75em;
-    border: 1px solid #000000;
     text-align: left;
     padding-left: 4px;
     padding-bottom: 4px;
@@ -164,13 +163,10 @@ PROGAMMING
     white-space: nowrap;
     overflow: hidden;
     cursor: default;
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 238, 238);
 }
-.mobile-list-item {
-    display: none;
-}
-.desktop-list-item {
-    display: list-item;
-}
+
 
 /*
 PROFESSIONAL
@@ -184,6 +180,7 @@ PROFESSIONAL
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 .professional-element {
     background-color: None;
     padding: 2px;
@@ -194,18 +191,17 @@ PROFESSIONAL
 
 .professional-element-connected {
     background-color: None;
-    padding: 2px;
-    margin-top: 1%;
+    padding: 0px 4px 2px 4px;
     margin-bottom: 0px;
     margin-top: 0px;
-    border-left: solid 1px;
-    /* height: 92%; */
+    border-left: solid 1.5px;
+
 }
 
 .intro-company {
-    border-left: solid 1px;
+    border-left: solid 1.5px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     padding-left: 3px;
     padding-top: 3px;
 }
@@ -218,14 +214,15 @@ PROFESSIONAL
 
 .intro-name {
     height: 0px;
-    border-top: solid 1px;
+    border-top: solid 1.5px;
     width: 10px;
     float: left;
+    margin-top: 5px;
 }
 
 .end-name {
     height: 0px;
-    border-bottom: solid 1px;
+    border-bottom: solid 1.5px;
     width: 10px;
     float: left;
 }
@@ -235,33 +232,22 @@ PROFESSIONAL
 }
 
 .job-title-nested {
-    font-size: 12px;
+    font-size: 13px;
+    margin-left: -10px;
 }
 
-.job-elipse {
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 0.75em;
-    font-weight: 800;
-    padding-right: 75%;
-}
+
 .job-description-desktop {
     padding: 2px;
     font-size: 0.75em;
 }
+
 .job-description-mobile {
     display: none;
 }
-.job-when {
-    font-size: 0.6em;
-    display: inline;
-    font-weight: 400;
-}
 
-.mobile-job-when{
-    margin: auto;
-    font-size: 8px;
+.job-when {
+    font-size: 10px;
     display: inline;
     font-weight: 400;
 }
@@ -274,6 +260,7 @@ Education
     grid-template-columns: auto;
     background-color: none;
 }
+
 .education-element {
     margin-top: 1%;
     font-size: 0.9em;
@@ -282,45 +269,29 @@ Education
 .mobile-education-description {
     display: none;
 }
+
 .desktop-education-description {
     display: list-item;
     font-size: 0.8em;
 }
+
 .education-place-date {
     display: inline;
 }
 
-/*
-Styling for the programming and mathematics coureses
-*/
-.course-container {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 35% auto 10%;
-    background-color: none;
-}
-.course-name {
-    background-color: clear;
-    font-size: 1em;
-    text-align: left;
-    padding-left: 0px;
-    padding-bottom: 1px;
-    padding-top: 0px;
-    padding-right: 1px;
-    white-space: nowrap;
-    overflow: hidden;
-}
+
+
 @media only screen and (max-width: 700px) {
     #intro-container {
         grid-template-columns: auto;
         padding: 0px 15%;
     }
+
     .page {
         margin: auto;
-        /* padding: 6vh 0 15vh 0; */
-        padding: 30px 0px 50px 0px;
+        padding: 15px 0px 30px 0px;
     }
+
     .body {
         border: 2px solid #000000;
         border-radius: 4px;
@@ -338,12 +309,14 @@ Styling for the programming and mathematics coureses
     }
 
     /*Header*/
-    .main-name {
+    .your-name {
         font-size: 18px;
     }
+
     .intro-element-main {
         font-size: 14px;
     }
+
     .mobile-indicator {
         display: block;
         margin-block-start: 0em;
@@ -354,25 +327,25 @@ Styling for the programming and mathematics coureses
 
     /*Programming*/
     .programming-element {
-        font-size: 3.6vw;
+        font-size: 15px;
         cursor: pointer;
     }
+
     #programming-container {
         height: 100%;
         display: grid;
         grid-template-columns: auto auto auto auto;
         margin-top: 1%;
     }
-    .programming-list {
-        font-size: 2.4vw;
-    }
-    .desktop-list-item {
-        display: none;
-    }
-    .mobile-list-item {
+
+
+
+    .programming-list-item {
         display: list-item;
-        font-size: 12px;
+        font-size: 11px;
+        
     }
+
 
     /*Profession*/
     .professional-element {
@@ -383,6 +356,7 @@ Styling for the programming and mathematics coureses
         display: flex;
         font-size: 14px;
     }
+
     .job-when {
         display: none;
     }
@@ -391,14 +365,11 @@ Styling for the programming and mathematics coureses
         font-size: 14px;
     }
 
-    .job-title-nested {
-        font-size: 14px;
-    }
-
     .job-description-mobile {
         display: list-item;
         font-size: 12px;
     }
+
     .job-description-desktop {
         display: none;
     }
@@ -414,13 +385,16 @@ Styling for the programming and mathematics coureses
         margin-top: 1%;
         font-size: 14px;
     }
+
     .mobile-education-description {
         display: list-item;
-        font-size: 14px;
+        font-size: 12px;
     }
+    
     .desktop-education-description {
         display: none;
     }
+
     .education-place-date {
         display: none;
     }
