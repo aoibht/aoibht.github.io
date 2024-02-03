@@ -3,11 +3,15 @@ GENERAL
 */
 html {
     background-color: #78d4d412;
-    cursor: default
+    cursor: default;
 }
 
 a {
     color: #236776;
+}
+
+.bold-text{
+    font-weight: 600;
 }
 
 .page {
@@ -15,7 +19,6 @@ a {
     height: 100%;
     margin: 0px;
     margin-top: 1em;
-
 }
 
 .resume-component {
@@ -56,10 +59,8 @@ a {
 .section-separator {
     margin: 0px;
     margin-top: 1px;
-    border: .5px solid #000000;
-    border-radius: 10px;
+    border: 0.5px solid #000000;
 }
-
 
 /*
 help container
@@ -91,8 +92,6 @@ help container
     padding-right: 0em;
 }
 
-
-
 /*
 HEADER
 */
@@ -116,7 +115,6 @@ HEADER
 /*
 PROGRAMMING
 */
-  
 
 #programming-table-container {
     height: 100%;
@@ -129,7 +127,7 @@ PROGRAMMING
 }
 
 .programming-table-element {
-    font-size: 1em;
+    font-size: 15px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -139,17 +137,17 @@ PROGRAMMING
     border-right: 1.5px solid #000000;
 }
 
-.programming-table-element-title{
+.programming-table-element-title {
     background-color: rgba(175, 182, 187, 0.251);
     padding: 5px 0px;
     border-bottom: 1.5px solid #000000;
 }
 
-.first-column{
+.first-column {
     border-left: 1.5px solid black;
 }
 
-.last-row{
+.last-row {
     border-bottom: 1.5px solid black;
 }
 
@@ -157,8 +155,8 @@ PROGRAMMING
     font-size: 0.75em;
     text-align: left;
     padding-left: 4px;
-    padding-bottom: 4px;
-    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-top: 4px;
     padding-right: 1px;
     white-space: nowrap;
     overflow: hidden;
@@ -167,6 +165,16 @@ PROGRAMMING
     background-color: rgb(238, 238, 238);
 }
 
+li.programming-list-item::marker {
+    width: 0px;
+    text-align: end;
+    margin: 0px;
+    margin-right: 0px;
+}
+
+::marker {
+    margin-right: 0px;
+}
 
 /*
 PROFESSIONAL
@@ -195,7 +203,6 @@ PROFESSIONAL
     margin-bottom: 0px;
     margin-top: 0px;
     border-left: solid 1.5px;
-
 }
 
 .intro-company {
@@ -232,10 +239,9 @@ PROFESSIONAL
 }
 
 .job-title-nested {
-    font-size: 13px;
+    font-size: 12px;
     margin-left: -10px;
 }
-
 
 .job-description-desktop {
     padding: 2px;
@@ -255,15 +261,24 @@ PROFESSIONAL
 /*
 Education
 */
+
 #education-container {
     display: grid;
     grid-template-columns: auto;
     background-color: none;
 }
 
+.education-place-container {
+    display: flex;
+}
+
 .education-element {
     margin-top: 1%;
     font-size: 0.9em;
+}
+
+.education-description-text {
+    display: inline-block;
 }
 
 .mobile-education-description {
@@ -276,10 +291,16 @@ Education
 }
 
 .education-place-date {
-    display: inline;
+    display: inline-block;
 }
 
-
+.degree-type{
+    margin-left: 4px;
+}
+.bold-text{
+    margin-right: 4px;
+    margin-left: 4px;
+}
 
 @media only screen and (max-width: 700px) {
     #intro-container {
@@ -290,6 +311,15 @@ Education
     .page {
         margin: auto;
         padding: 15px 0px 30px 0px;
+        width: 96%;
+    }
+
+    .resume-component {
+        min-width: auto;
+        width: auto;
+        height: auto;
+        padding-left: 6px;
+        padding-right: 6px;
     }
 
     .body {
@@ -303,6 +333,11 @@ Education
         min-width: 93%;
     }
 
+    .job-title-nested {
+        font-size: 14px;
+        display: inline-block;
+    }
+
     /*General*/
     .section-header {
         font-size: 4.2vw;
@@ -310,11 +345,11 @@ Education
 
     /*Header*/
     .your-name {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .intro-element-main {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .mobile-indicator {
@@ -326,11 +361,6 @@ Education
     }
 
     /*Programming*/
-    .programming-element {
-        font-size: 15px;
-        cursor: pointer;
-    }
-
     #programming-container {
         height: 100%;
         display: grid;
@@ -338,14 +368,10 @@ Education
         margin-top: 1%;
     }
 
-
-
     .programming-list-item {
         display: list-item;
         font-size: 11px;
-        
     }
-
 
     /*Profession*/
     .professional-element {
@@ -363,11 +389,16 @@ Education
 
     .intro-company {
         font-size: 14px;
+        display: flex;
     }
 
     .job-description-mobile {
         display: list-item;
         font-size: 12px;
+    }
+
+    .job-description-text {
+        display: flex;
     }
 
     .job-description-desktop {
@@ -390,12 +421,16 @@ Education
         display: list-item;
         font-size: 12px;
     }
-    
+
     .desktop-education-description {
         display: none;
     }
 
     .education-place-date {
         display: none;
+    }
+
+    .programming-table-element {
+        font-size: 15px;
     }
 }
