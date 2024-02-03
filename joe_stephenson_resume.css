@@ -18,7 +18,7 @@ a {
     width: 98%;
     height: 100%;
     margin: 0px;
-    margin-top: 1em;
+    margin-top: 3%;
 }
 
 .resume-component {
@@ -45,7 +45,7 @@ a {
 
 .section-header {
     margin-top: 1%;
-    font-size: 1.1em;
+    font-size: 15px;
 }
 
 .mobile-indicator-wrapper {
@@ -293,6 +293,7 @@ Education
 .education-place-date {
     display: inline-block;
 }
+
 
 .degree-type{
     margin-left: 4px;
