@@ -303,6 +303,11 @@ Education
     margin-left: 4px;
 }
 
+.job-description-text {
+    display: inline-flex;
+}
+
+
 @media only screen and (max-width: 700px) {
     #intro-container {
         grid-template-columns: auto;
@@ -398,9 +403,6 @@ Education
         font-size: 12px;
     }
 
-    .job-description-text {
-        display: inline-flex;
-    }
 
     .job-description-desktop {
         display: none;
