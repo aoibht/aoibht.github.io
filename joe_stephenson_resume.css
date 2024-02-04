@@ -399,7 +399,7 @@ Education
     }
 
     .job-description-text {
-        display: flex;
+        display: inline-flex;
     }
 
     .job-description-desktop {
