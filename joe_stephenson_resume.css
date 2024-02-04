@@ -165,16 +165,15 @@ PROGRAMMING
     background-color: rgb(238, 238, 238);
 }
 
-li.programming-list-item::marker {
-    width: 0px;
-    text-align: end;
-    margin: 0px;
-    margin-right: 0px;
+/* li.programming-list-item::marker {
+    width: 10px;
+    margin: 10px;
+    margin-right: 10px;
 }
 
 ::marker {
-    margin-right: 0px;
-}
+    margin-right: 10px;
+} */
 
 /*
 PROFESSIONAL
@@ -240,7 +239,7 @@ PROFESSIONAL
 
 .job-title-nested {
     font-size: 12px;
-    margin-left: -10px;
+    margin-left: -5px;
 }
 
 .job-description-desktop {
@@ -412,6 +411,10 @@ Education
         margin-bottom: 0px;
         margin-top: 0px;
         overflow: scroll;
+    }
+
+    .job-title-nested {
+        margin-left: -10px;
     }
 
     /*Education*/
